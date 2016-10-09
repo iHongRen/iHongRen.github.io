@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>对象没找到，bug有一堆</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-10-08T14:22:13.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>i红人</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一家人的国庆假期</title>
+    <link href="http://yoursite.com/2016/10/08/%E4%B8%80%E5%AE%B6%E4%BA%BA%E7%9A%84%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F/"/>
+    <id>http://yoursite.com/2016/10/08/一家人的国庆假期/</id>
+    <published>2016-10-08T14:20:17.000Z</published>
+    <updated>2016-10-08T14:22:13.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>《极简经济学》笔记</title>
+    <link href="http://yoursite.com/2016/09/26/%E3%80%8A%E6%9E%81%E7%AE%80%E7%BB%8F%E6%B5%8E%E5%AD%A6%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/09/26/《极简经济学》笔记/</id>
+    <published>2016-09-26T14:26:00.000Z</published>
+    <updated>2016-09-27T15:07:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一、人们卖弄的经济学原理只有50-是正确的"><a href="#一、人们卖弄的经济学原理只有50-是正确的" class="headerlink" title="一、人们卖弄的经济学原理只有50%是正确的"></a>一、人们卖弄的经济学原理只有50%是正确的</h3><p> 经济学家如何思考：<strong>对公共政策做出建议的经济学，大多只用到了大学入门课程的程度</strong></p>
+<p>研究经济学的理由就是：<strong><em>为了避免被经济学家欺骗</em></strong>    </p>
+<p>经济学的三个基础问题：  </p>
+<ul>
+<li><strong>社会应该生产什么？</strong></li>
+<li><strong>应该如何生产？</strong></li>
+<li><strong>谁来消费所生产的东西？</strong>  </li>
+</ul>
+<p>经济学家不是算命师，无法预测可能会影响经济体的消费或生产的每项因素。</p>
+<p>应该严肃看待<strong>“权衡取舍”</strong>  </p>
+<p><strong>趣闻轶事</strong>并不是<strong>数据</strong>  </p>
+<p><strong>自利</strong>是组成社会的有效方式 ，如货币三家以寻找最佳价格，买卖房前等待一个好价格</p>
+<p><strong>”看不见的手”</strong>的概念，就是你在追求自己的利益时，可能也会给别人带来好处。  </p>
+<p>所有成本都有<strong>机会成本</strong>。当你做一个选择时，你没有选择的东西就是所谓的<strong>”机会成本“</strong>  </p>
+<p>价格是由市场决定，而非生产者。比如，你房东涨了你房租。  </p>
+<p> <br></p>
+<h3 id="二、做自己最适合做的事，就会有更好的生产力"><a href="#二、做自己最适合做的事，就会有更好的生产力" class="headerlink" title="二、做自己最适合做的事，就会有更好的生产力"></a>二、做自己最适合做的事，就会有更好的生产力</h3><p><strong>分工：</strong>经济学的一部分，既是了解并分析市场经济每天所协调完成的丰功伟绩。</p>
+<p>即使看起来简单的消费品，也经常通过一个涉及全球的复杂过程来生产，如铅笔。</p>
+<p><strong>分工</strong>使工人能聚焦于他们最适合做的事，又使企业能充分理由当地资源。</p>
+<p><strong>分工</strong>使企业得以利用<strong>规模经济</strong>，“规模经济”，用来说明大厂相对于小厂可以用较低的平均成本来生产。</p>
+<p>高收入社会通常比低收入社会有较大规模的<strong>分工</strong>。</p>
+<p>全球贸易有一个重要趋势，<strong>“价值链分解”</strong>，意即更广泛分散地生产零件。</p>
+<p>在市场经济里，送进仓库及从中取出的商品的价值，是由供给与需求决定的。</p>
+<p>在市场经济里，商品的价值就是它的价格。</p>
+<p>​    </p>
+<p>未完…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;一、人们卖弄的经济学原理只有50-是正确的&quot;&gt;&lt;a href=&quot;#一、人们卖弄的经济学原理只有50-是正确的&quot; class=&quot;headerlink&quot; title=&quot;一、人们卖弄的经济学原理只有50%是正确的&quot;&gt;&lt;/a&gt;一、人们卖弄的经济学原理只有50%是正确的&lt;/
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/07/04/hello-world/"/>
+    <id>http://yoursite.com/2016/07/04/hello-world/</id>
+    <published>2016-07-03T16:59:49.000Z</published>
+    <updated>2016-09-26T15:15:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
