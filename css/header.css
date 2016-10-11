@@ -1,0 +1,23 @@
+#menu-outer {
+  display: flex;
+  background-color: #fafafa;
+  height: 44px;
+  margin: -10px -10px 0px -10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+#menu-inner {
+  margin-right: 10px;
+}
+#menu-inner a {
+  color: #848484;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 8px 8px 8px 8px;
+}
+#menu-inner a:hover {
+  color: #000;
+  background-color: #ddd;
+}
