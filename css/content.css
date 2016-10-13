@@ -1,0 +1,8 @@
+#content-outer {
+  min-height: 100%;
+  margin-bottom: -30px;
+}
+#content-outer:after {
+  content: "";
+  display: block;
+}
