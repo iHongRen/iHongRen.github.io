@@ -4,7 +4,7 @@
   outline: 0;
   border-radius: 100%;
   padding: 0;
-  margin: 0;
+  margin: 10px 0px 0px 0px;
   letter-spacing: normal;
   text-transform: none;
   text-indent: 0px;
@@ -91,14 +91,6 @@
 #bottom-inner a:hover {
   color: #808080;
 }
-#content-outer {
-  min-height: 100%;
-  margin-bottom: -30px;
-}
-#content-outer:after {
-  content: "";
-  display: block;
-}
 * {
   margin: 0;
 }
@@ -108,4 +100,12 @@ body {
 }
 body {
   background: #f5deb3;
+}
+#header-content {
+  min-height: 100%;
+  margin-bottom: -30px;
+}
+#header-content:after {
+  content: "";
+  display: block;
 }
