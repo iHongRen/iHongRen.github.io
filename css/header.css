@@ -1,6 +1,6 @@
 #menu-outer {
   display: flex;
-  background-color: #fafafa;
+  background-color: #6d5aca;
   height: 44px;
   align-items: center;
   justify-content: flex-end;
@@ -9,7 +9,7 @@
   margin-right: 10px;
 }
 #menu-inner a {
-  color: #848484;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
@@ -17,6 +17,6 @@
   padding: 8px 8px 8px 8px;
 }
 #menu-inner a:hover {
-  color: #000;
-  background-color: #ddd;
+  color: #6d5aca;
+  background-color: #fff;
 }
