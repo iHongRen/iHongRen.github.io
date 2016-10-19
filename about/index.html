@@ -22,18 +22,20 @@
     
   </div>
 </div> 
-
   <div id="content-outer">
     <div id="content-inner">
       
       
   <article id="page">
-     <p>test</p>
+     <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">NSString *londonWeatherUrl = @&quot;http://api.openweathermap.org/data/2.5/weather?q=London,uk&quot; ;</div></pre></td></tr></table></figure>
+<p>首先，使用<strong>NSURLConnection</strong>会这么做：  </p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">NSURLRequest *request = [NSURLRequest requestWithURL:</div><div class="line">[NSURL URLWithString:londonWeatherUrl]];</div><div class="line">[NSURLConnection sendAsynchronousRequest:request <span class="built_in">queue</span>:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response,</div><div class="line">                   NSData *data,</div><div class="line">                   NSError *connectionError) &#123;</div><div class="line">  <span class="comment">// handle response</span></div><div class="line">  &#125;];</div></pre></td></tr></table></figure>
+<p>那来看下<strong>NSURLSession</strong>是怎么做的。这个是<strong>NSURLSession</strong>使用的最简单方法。随后你还会看到怎样配置session，设置其他的特性，比如代理。   </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">NSURLSession *session = [NSURLSession sharedSession];</div><div class="line">[[session dataTaskWithURL:[NSURL URLWithString:londonWeatherUrl]</div><div class="line">      completionHandler:^(NSData *data,</div><div class="line">                          NSURLResponse *response,</div><div class="line">                          NSError *error) &#123;</div><div class="line">        // handle response</div><div class="line">&#125;] resume];</div></pre></td></tr></table></figure>
 
   </article>
 
     </div>
-
       <!-- 多说评论框 -->    
       
         <div class="ds-thread" data-thread-key="about/index.html" data-title="about" data-url="http://yoursite.com/about/index.html"></div>
@@ -47,8 +49,8 @@
     ©2016 |Powered by  
     <a href="http://hexo.io" target="_blank">Hexo</a> with theme 
     <a href="http://hexo.io" target="_blank">legend</a>
-  
   </div>
+
     
       <a href="/atom.xml">
       
