@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="zh-CN">
-
 <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-<link href="/plugins/prettify/tomorrow-night.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="/plugins/prettify/prettify.js" ></script>
+
+ 
+<link href="/plugins/prettify/tomorrow.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="/plugins/github-markdown.css">
+
+
 
 <head>
   <meta charset="UTF-8">
@@ -32,8 +36,14 @@
     <div id="content-inner">
       
       
-  <article id="post">
-    <h1>test</h1>
+  <article class="markdown-body">
+   
+     <h1 id="post-title">test
+     <div id="post-time" datetime="2016-10-08T14:20:17.000Z">
+         2016-10-08
+     </div>
+     </h1>
+    
     <pre><code class="objc">- (void)test {
     NSLog(@&quot;test&quot;);
 }
@@ -42,7 +52,7 @@
   </article>
 
   
-  
+    
   <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
     <div>文章对我有帮助，很想支持一下作者</div>
     <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">

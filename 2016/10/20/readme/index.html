@@ -38,25 +38,37 @@
       
   <article class="markdown-body">
    
-     <h1 id="post-title">Hello World
-     <div id="post-time" datetime="2016-07-03T16:59:49.000Z">
-         2016-07-04
+     <h1 id="post-title">
+     <div id="post-time" datetime="2016-10-20T14:21:57.000Z">
+         2016-10-20
      </div>
      </h1>
     
-    <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+    <h1 id="github-markdown-css"><a href="#github-markdown-css" class="headerlink" title="github-markdown-css"></a>github-markdown-css</h1><blockquote>
+<p>The minimal amount of CSS to replicate the GitHub Markdown style</p>
+</blockquote>
+<p><a href="http://sindresorhus.com/github-markdown-css" target="_blank" rel="external"><img src="https://cloud.githubusercontent.com/assets/170270/5219062/f22a978c-7685-11e4-8316-af25b6c89bc0.png" width="300"></a></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a><a href="http://sindresorhus.com/github-markdown-css" target="_blank" rel="external">Demo</a></h2><h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p>Download <a href="https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css" target="_blank" rel="external">manually</a> or with npm:</p>
+<pre><code>$ npm install --save github-markdown-css
+</code></pre><h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>Import the <code>github-markdown.css</code> file and add a <code>markdown-body</code> class to the container of your rendered Markdown and set a width for it. GitHub uses <code>980px</code> width and <code>45px</code> padding.</p>
+<pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;github-markdown.css&quot;&gt;
+&lt;style&gt;
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+    }
+&lt;/style&gt;
+&lt;article class=&quot;markdown-body&quot;&gt;
+    &lt;h1&gt;Unicorns&lt;/h1&gt;
+    &lt;p&gt;All the things&lt;/p&gt;
+&lt;/article&gt;
 </code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><p>See <a href="https://github.com/sindresorhus/generate-github-markdown-css" target="_blank" rel="external"><code>generate-github-markdown-css</code></a> for how it’s generated and ability to generate your own.</p>
+<h2 id="Dev"><a href="#Dev" class="headerlink" title="Dev"></a>Dev</h2><p>Run <code>npm run make</code> to update the CSS.</p>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT © <a href="http://sindresorhus.com" target="_blank" rel="external">Sindre Sorhus</a></p>
 
   </article>
 
@@ -89,7 +101,7 @@
     </div>
       <!-- 多说评论框 -->    
       
-        <div class="ds-thread" data-thread-key="2016/07/04/hello-world/" data-title="Hello World" data-url="http://yoursite.com/2016/07/04/hello-world/"></div>
+        <div class="ds-thread" data-thread-key="2016/10/20/readme/" data-title="" data-url="http://yoursite.com/2016/10/20/readme/"></div>
       
   </div>
 </div>
