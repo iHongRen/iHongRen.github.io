@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="zh-CN">
+
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<link href="/plugins/prettify/tomorrow-night.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/plugins/prettify/prettify.js" ></script>
+
 <head>
   <meta charset="UTF-8">
   
@@ -10,6 +15,7 @@
   
 </head>
 <body>
+
 <div id="header-content">
   <div id="menu-outer">
   <div id="menu-inner">
@@ -28,7 +34,6 @@
       
   <article id="post">
     <h1>《极简经济学》笔记</h1>
-    <div>
     <h3 id="一、人们卖弄的经济学原理只有50-是正确的"><a href="#一、人们卖弄的经济学原理只有50-是正确的" class="headerlink" title="一、人们卖弄的经济学原理只有50%是正确的"></a>一、人们卖弄的经济学原理只有50%是正确的</h3><p> 经济学家如何思考：<strong>对公共政策做出建议的经济学，大多只用到了大学入门课程的程度</strong></p>
 <p>研究经济学的理由就是：<strong><em>为了避免被经济学家欺骗</em></strong>    </p>
 <p>经济学的三个基础问题：  </p>
@@ -56,7 +61,6 @@
 <p>​    </p>
 <p>未完…</p>
 
-    </div>
   </article>
 
   
@@ -92,7 +96,6 @@
       
   </div>
 </div>
-
 <div id="bottom-outer">
   <div id="bottom-inner">
     i红人 
@@ -129,4 +132,12 @@ var duoshuoQuery = {short_name:"ihongren"};
   (document.getElementsByTagName('head')[0] 
    || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
+</script>
+
+
+<script>
+$(window).on('load', function(){
+   $('pre').addClass('prettyprint').attr('style', 'overflow:auto;');
+   prettyPrint();
+ })
 </script>

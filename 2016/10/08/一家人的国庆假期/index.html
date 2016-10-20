@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="zh-CN">
+
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<link href="/plugins/prettify/tomorrow-night.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/plugins/prettify/prettify.js" ></script>
+
 <head>
   <meta charset="UTF-8">
   
@@ -10,6 +15,7 @@
   
 </head>
 <body>
+
 <div id="header-content">
   <div id="menu-outer">
   <div id="menu-inner">
@@ -28,10 +34,11 @@
       
   <article id="post">
     <h1>test</h1>
-    <div>
-    <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- (void)test &#123;</div><div class="line">    NSLog(@&quot;test&quot;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+    <pre><code class="objc">- (void)test {
+    NSLog(@&quot;test&quot;);
+}
+</code></pre>
 
-    </div>
   </article>
 
   
@@ -67,7 +74,6 @@
       
   </div>
 </div>
-
 <div id="bottom-outer">
   <div id="bottom-inner">
     i红人 
@@ -104,4 +110,12 @@ var duoshuoQuery = {short_name:"ihongren"};
   (document.getElementsByTagName('head')[0] 
    || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
+</script>
+
+
+<script>
+$(window).on('load', function(){
+   $('pre').addClass('prettyprint').attr('style', 'overflow:auto;');
+   prettyPrint();
+ })
 </script>
