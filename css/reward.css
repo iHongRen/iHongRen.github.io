@@ -26,7 +26,7 @@
   font-variant: normal;
   font-stretch: normal;
   font-size: 25px;
-  font-family: "Microsoft Yahei";
+  font-family: theme_font_family;
   background: #f44336;
 }
 #rewardButton span:hover {
@@ -53,4 +53,7 @@
   animation: roll 0.1s infinite linear;
   -webkit-animation: roll 0.1s infinite linear;
   -moz-animation: roll 0.1s infinite linear;
+}
+#reward_comment {
+  font-family: theme_font_family;
 }

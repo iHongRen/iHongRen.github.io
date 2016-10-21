@@ -1,12 +1,17 @@
 #menu-outer {
-  display: flex;
-  background-color: #6d5aca;
-  height: 44px;
-  align-items: center;
-  justify-content: flex-end;
+  background-color: theme_color;
 }
 #menu-inner {
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -5px;
+}
+#site-title {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: theme_font_family;
 }
 #menu-inner a {
   color: #fff;
@@ -14,9 +19,12 @@
   font-size: 20px;
   font-weight: bold;
   margin-right: 5px;
-  padding: 8px 8px 8px 8px;
+  padding: 0 8px 0 8px;
+  line-height: 44px;
+  vertical-align: center;
+  font-family: theme_font_family;
 }
 #menu-inner a:hover {
-  color: #6d5aca;
+  color: theme_color;
   background-color: #fff;
 }

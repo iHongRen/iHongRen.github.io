@@ -26,7 +26,7 @@
   font-variant: normal;
   font-stretch: normal;
   font-size: 25px;
-  font-family: "Microsoft Yahei";
+  font-family: Microsoft Yahei;
   background: #f44336;
 }
 #rewardButton span:hover {
@@ -54,15 +54,23 @@
   -webkit-animation: roll 0.1s infinite linear;
   -moz-animation: roll 0.1s infinite linear;
 }
+#reward_comment {
+  font-family: Microsoft Yahei;
+}
 #menu-outer {
-  display: flex;
   background-color: #6d5aca;
-  height: 44px;
-  align-items: center;
-  justify-content: flex-end;
 }
 #menu-inner {
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -5px;
+}
+#site-title {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: Microsoft Yahei;
 }
 #menu-inner a {
   color: #fff;
@@ -70,7 +78,10 @@
   font-size: 20px;
   font-weight: bold;
   margin-right: 5px;
-  padding: 8px 8px 8px 8px;
+  padding: 0 8px 0 8px;
+  line-height: 44px;
+  vertical-align: center;
+  font-family: Microsoft Yahei;
 }
 #menu-inner a:hover {
   color: #6d5aca;
@@ -83,13 +94,14 @@
 #bottom-inner {
   display: inline-block;
   color: #808080;
+  font-size: 14px;
+  font-family: Microsoft Yahei;
 }
 #bottom-inner a {
-  text-decoration: none;
-  color: #000;
+  color: #6d5aca;
 }
 #bottom-inner a:hover {
-  color: #808080;
+  color: #4400b3;
 }
 #archive-outer {
   display: flex;
@@ -97,20 +109,21 @@
   margin-top: 60px;
 }
 #archive-inter {
-  width: 60%;
+  width: 80%;
   background-color: #fff;
   border-width: 1px;
   border-radius: 5px;
-  box-shadow: #d3d3d3 1px 1px 1px 1px;
+  box-shadow: 1px 1px 1px 2px #d3d3d3;
   overflow: hidden;
 }
 #archive-year {
   text-align: left;
   padding-top: 10px;
   padding-left: 10px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   color: #6d5aca;
+  font-family: Microsoft Yahei;
 }
 #archive-inter a {
   display: flex;
@@ -121,6 +134,7 @@
   font-size: 20px;
   font-weight: bold;
   padding-left: 10px;
+  font-family: Microsoft Yahei;
 }
 #archive-inter a:hover {
   color: #4400b3;
@@ -131,6 +145,30 @@
   font-size: 0.5em;
   padding-right: 20px;
 }
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+#post-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#post-time {
+  font-size: 14px;
+  color: #808080;
+  font-weight: normal;
+}
+.home-body {
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
 * {
   margin: 0;
 }
@@ -138,14 +176,11 @@ html,
 body {
   height: 100%;
 }
-body {
-  background: #fff;
-}
-#header-content {
+#layout-content {
   min-height: 100%;
   margin-bottom: -30px;
 }
-#header-content:after {
+#layout-content:after {
   content: "";
   display: block;
 }
