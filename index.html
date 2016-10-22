@@ -1,7 +1,13 @@
+
+
+
+
+
 <!doctype html>
 <html lang="zh-CN">
+
 <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="/plugins/prettify/prettify.js" ></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js" ></script>
 
 
 
@@ -15,14 +21,9 @@
   
 </head>
 
-
-
-
-
-<body class="home-body">
-
+<body>
 <div id="layout-content">
-  <div id="menu-outer">
+  <div id="menu-outer-home">
   <div id="menu-inner">
     
     <div id="site-title">
@@ -44,9 +45,20 @@
     <div id="content-inner">
       
       
-  <div id="home-body">
- 这是主页
-</div>
+  <video id="bgvideo" autoplay loop poster="/images/background.png">
+  <source src="http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.mp4?v=1418162238190" type="video/mp4">
+</video>
+
+<audio controls="controls">
+  <source src="http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715" type="audio/mpeg">
+</audio>
+<!--[if lt IE 9]>
+http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715
+<script>
+	document.createElement('video');
+</script>
+<![endif]-->
+
 
 
     </div>
@@ -58,7 +70,7 @@
   <div id="bottom-inner">
     i红人 
     ©2016 |Powered by  
-    <a href="http://hexo.io" target="_blank">Hexo</a> with Theme 
+    <a href="http://hexo.io" target="_blank">Hexo</a> with theme 
     <a href="http://hexo.io" target="_blank">legend</a>
   </div>
 
@@ -78,6 +90,8 @@
 
 </body>
 </html>
+
+
 
 
 
