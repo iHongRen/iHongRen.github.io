@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>对象没找到，bug有一堆</title>
+  <title>吾日三省吾身</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-10-20T14:21:57.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://ihongren.github.io/"/>
+  <updated>2016-10-20T03:21:06.000Z</updated>
+  <id>https://ihongren.github.io/</id>
   
   <author>
     <name>i红人</name>
@@ -16,52 +16,9 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2016/10/20/readme/"/>
-    <id>http://yoursite.com/2016/10/20/readme/</id>
-    <published>2016-10-20T14:21:57.000Z</published>
-    <updated>2016-10-20T14:21:57.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="github-markdown-css"><a href="#github-markdown-css" class="headerlink" title="github-markdown-css"></a>github-markdown-css</h1><blockquote>
-<p>The minimal amount of CSS to replicate the GitHub Markdown style</p>
-</blockquote>
-<p><a href="http://sindresorhus.com/github-markdown-css" target="_blank" rel="external"><img src="https://cloud.githubusercontent.com/assets/170270/5219062/f22a978c-7685-11e4-8316-af25b6c89bc0.png" width="300"></a></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a><a href="http://sindresorhus.com/github-markdown-css" target="_blank" rel="external">Demo</a></h2><h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p>Download <a href="https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css" target="_blank" rel="external">manually</a> or with npm:</p>
-<pre><code>$ npm install --save github-markdown-css
-</code></pre><h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>Import the <code>github-markdown.css</code> file and add a <code>markdown-body</code> class to the container of your rendered Markdown and set a width for it. GitHub uses <code>980px</code> width and <code>45px</code> padding.</p>
-<pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;github-markdown.css&quot;&gt;
-&lt;style&gt;
-    .markdown-body {
-        box-sizing: border-box;
-        min-width: 200px;
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 45px;
-    }
-&lt;/style&gt;
-&lt;article class=&quot;markdown-body&quot;&gt;
-    &lt;h1&gt;Unicorns&lt;/h1&gt;
-    &lt;p&gt;All the things&lt;/p&gt;
-&lt;/article&gt;
-</code></pre>
-<h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><p>See <a href="https://github.com/sindresorhus/generate-github-markdown-css" target="_blank" rel="external"><code>generate-github-markdown-css</code></a> for how it’s generated and ability to generate your own.</p>
-<h2 id="Dev"><a href="#Dev" class="headerlink" title="Dev"></a>Dev</h2><p>Run <code>npm run make</code> to update the CSS.</p>
-<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT © <a href="http://sindresorhus.com" target="_blank" rel="external">Sindre Sorhus</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;github-markdown-css&quot;&gt;&lt;a href=&quot;#github-markdown-css&quot; class=&quot;headerlink&quot; title=&quot;github-markdown-css&quot;&gt;&lt;/a&gt;github-markdown-css&lt;/h1&gt;&lt;bloc
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>test</title>
-    <link href="http://yoursite.com/2016/10/08/%E4%B8%80%E5%AE%B6%E4%BA%BA%E7%9A%84%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F/"/>
-    <id>http://yoursite.com/2016/10/08/一家人的国庆假期/</id>
+    <link href="https://ihongren.github.io/2016/10/08/%E4%B8%80%E5%AE%B6%E4%BA%BA%E7%9A%84%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F/"/>
+    <id>https://ihongren.github.io/2016/10/08/一家人的国庆假期/</id>
     <published>2016-10-08T14:20:17.000Z</published>
     <updated>2016-10-20T03:21:06.000Z</updated>
     
@@ -86,8 +43,8 @@
   
   <entry>
     <title>《极简经济学》笔记</title>
-    <link href="http://yoursite.com/2016/09/26/%E3%80%8A%E6%9E%81%E7%AE%80%E7%BB%8F%E6%B5%8E%E5%AD%A6%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2016/09/26/《极简经济学》笔记/</id>
+    <link href="https://ihongren.github.io/2016/09/26/%E3%80%8A%E6%9E%81%E7%AE%80%E7%BB%8F%E6%B5%8E%E5%AD%A6%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
+    <id>https://ihongren.github.io/2016/09/26/《极简经济学》笔记/</id>
     <published>2016-09-26T14:26:00.000Z</published>
     <updated>2016-09-27T15:07:34.000Z</updated>
     
@@ -130,8 +87,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/07/04/hello-world/"/>
-    <id>http://yoursite.com/2016/07/04/hello-world/</id>
+    <link href="https://ihongren.github.io/2016/07/04/hello-world/"/>
+    <id>https://ihongren.github.io/2016/07/04/hello-world/</id>
     <published>2016-07-03T16:59:49.000Z</published>
     <updated>2016-10-15T07:35:29.000Z</updated>
     

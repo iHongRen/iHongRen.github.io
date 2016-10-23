@@ -1,7 +1,45 @@
-.home-body {
-  background-image: url("/images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: cover;
+#bgvideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+#bgaudio {
+  visibility: hidden;
+}
+#play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1.5px #fff;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  margin-left: 10px;
+  bottom: 10px;
+}
+#play-button:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+#play-img {
+  width: 50%;
+}
+@media screen and (max-device-width: 800px) {
+  html {
+    background: url("_home_bgimage") #000 no-repeat center center fixed;
+  }
+  #bgvid {
+    display: none;
+  }
 }

@@ -3,6 +3,10 @@
 
 
 
+
+
+
+
 <!doctype html>
 <html lang="zh-CN">
 
@@ -21,13 +25,13 @@
   
 </head>
 
-<body>
+<body id="body-home-bg">
 <div id="layout-content">
   <div id="menu-outer-home">
   <div id="menu-inner">
     
     <div id="site-title">
-      对象没找到，bug有一堆
+      吾日三省吾身
     </div>
     
     <div>
@@ -45,27 +49,48 @@
     <div id="content-inner">
       
       
-  <video id="bgvideo" autoplay loop poster="/images/background.png">
-  <source src="http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.mp4?v=1418162238190" type="video/mp4">
+  
+<video id="bgvideo" autoplay loop poster=/images/background.png>
+  <source src=http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.mp4?v=1418162238190 type="video/mp4">
 </video>
 
-<audio controls="controls">
-  <source src="http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715" type="audio/mpeg">
+
+
+<div id="play-button" onclick="onPlayAudio()">
+		<img id="play-img" src="/images/playback_play.png">
+		</img>
+</div>
+
+<audio id="bgaudio" controls preload="none"> 
+  <source src=http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715 type="audio/mpeg">
 </audio>
+
+
 <!--[if lt IE 9]>
-http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715
 <script>
 	document.createElement('video');
 </script>
 <![endif]-->
-
-
+<script>
+var audio = document.getElementById("bgaudio");
+var img = document.getElementById("play-img");
+function onPlayAudio() {
+   if (audio.paused || audio.ended) {
+      audio.play();
+      img.src = "/images/playback_pause.png";
+   } else {
+      audio.pause();
+      img.src = "/images/playback_play.png";
+   }
+}
+</script>
 
     </div>
       <!-- 多说评论框 -->    
       
   </div>
 </div>
+
 <div id="bottom-outer">
   <div id="bottom-inner">
     i红人 
