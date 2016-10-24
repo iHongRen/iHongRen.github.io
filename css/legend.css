@@ -179,7 +179,8 @@
 #bgaudio {
   visibility: hidden;
 }
-#play-button {
+#play-button,
+#me-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,13 +192,38 @@
   margin-left: 10px;
   bottom: 10px;
 }
-#play-button:hover {
+#play-button:hover,
+#me-button:hover {
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
 }
 #play-img {
   width: 50%;
+}
+#me-button {
+  bottom: 60px;
+}
+#social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-left: 5px;
+  bottom: 100px;
+}
+#social a {
+  padding: 5px;
+}
+#social a:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+#social img {
+  width: 32px;
+  height: 32px;
 }
 @media screen and (max-device-width: 800px) {
   html {
@@ -214,7 +240,11 @@ html,
 body {
   height: 100%;
 }
+#body-x {
+  background-color: #fff;
+}
 #body-home-bg {
+  background-color: #fff;
   background: url("/images/background.png") no-repeat;
   background-size: cover;
 }

@@ -9,9 +9,9 @@
 
 <!doctype html>
 <html lang="zh-CN">
-
 <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js" ></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+
 
 
 
@@ -36,11 +36,17 @@
     
     <div>
     
+      
       <a href="/">首页</a>
+      
     
+      
       <a href="/archives">归档</a>
+      
     
+      
       <a href="/about">关于</a>
+      
     
     </div>
   </div>
@@ -56,33 +62,92 @@
 
 
 
-<div id="play-button" onclick="onPlayAudio()">
+<div id="play-button">
 		<img id="play-img" src="/images/playback_play.png">
 		</img>
 </div>
-
 <audio id="bgaudio" controls preload="none"> 
   <source src=http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715 type="audio/mpeg">
 </audio>
 
 
+
+<div id="me-button">
+		<img id="play-img" src="/images/me.png">
+		</img>
+</div>
+
+
+<div id="social">
+
+    
+    
+    <a id="1" href="http://weibo.com/3169700852/" target="_blank">
+        <img src="/images/weibo.png">
+    </a>
+    
+
+    
+    
+    <a id="1" href="https://www.zhihu.com/people/hong-ren-84" target="_blank">
+        <img src="/images/zhihu.png">
+    </a>
+    
+
+    
+    
+    <a id="1" href="https://github.com/iHongRen" target="_blank">
+        <img src="/images/github.png">
+    </a>
+    
+
+    
+    
+    <a id="1" href="https://www.linkedin.com" target="_blank">
+        <img src="/images/linkedin.png">
+    </a>
+    
+
+    
+    
+    <a id="1" href="https://facebook.com" target="_blank">
+        <img src="/images/facebook.png">
+    </a>
+    
+
+    
+    
+    <a id="1" href="https://twitter.com/ihongren" target="_blank">
+        <img src="/images/twitter.png">
+    </a>
+    
+
+</div>
 <!--[if lt IE 9]>
 <script>
 	document.createElement('video');
 </script>
 <![endif]-->
 <script>
-var audio = document.getElementById("bgaudio");
-var img = document.getElementById("play-img");
-function onPlayAudio() {
-   if (audio.paused || audio.ended) {
+var header_id = "#menu-outer-home";
+$(document).ready(function(){
+  var audio = $("#bgaudio")[0];
+  var img = $("#play-img")[0];
+  $("#play-button").click(function(){ 
+    if (audio.paused || audio.ended) {
       audio.play();
       img.src = "/images/playback_pause.png";
-   } else {
+    } else {
       audio.pause();
       img.src = "/images/playback_play.png";
-   }
-}
+    }
+  });
+  
+  $("#social").hide();
+  $("#me-button").click(function(){ 
+    $("#social").slideToggle();
+  });
+});
 </script>
 
     </div>
@@ -126,3 +191,4 @@ $(window).on('load', function(){
    prettyPrint();
  })
 </script>
+
