@@ -66,7 +66,7 @@
 		<img id="play-img" src="/images/playback_play.png">
 		</img>
 </div>
-<audio id="bgaudio" controls preload="none"> 
+<audio id="bgaudio" loop="loop" preload="none"> 
   <source src=http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715 type="audio/mpeg">
 </audio>
 
@@ -123,6 +123,11 @@
     
 
 </div>
+
+<div id="about-me">
+<article class="markdown-body">
+</article>
+</div>
 <!--[if lt IE 9]>
 <script>
 	document.createElement('video');
@@ -146,6 +151,20 @@ $(document).ready(function(){
   $("#social").hide();
   $("#me-button").click(function(){ 
     $("#social").slideToggle();
+
+    alert(window.location.host);
+    $.ajax({ 
+        type: "GET", 
+        //xml文件位置 
+        url: window.location.host+"/about.md", 
+        //返回数据格式为xml  
+        dataType: "md", 
+        //请求成功完成后要执行的方法
+        success: function (s) { 
+          alert("dddd");
+           console.log(s);
+        }
+    }); 
   });
 });
 </script>
