@@ -164,8 +164,7 @@ $(document).ready(function(){
     //加载about(关于)读取文件
     var s = $('article').html();
     if (s.length < 2) {
-      var url = window.location.protocol+"//"+window.location.host+"/about";
-      url = "https://ihongren.github.io/about/";
+      var url = window.location.protocol+"//"+window.location.host+"/about/";
       $.ajax({ 
           type: "GET", 
           url: url, 
