@@ -165,12 +165,13 @@ $(document).ready(function(){
     var s = $('article').html();
     if (s.length < 2) {
       var url = window.location.protocol+"//"+window.location.host+"/about";
-      alert(url);
       $.ajax({ 
           type: "GET", 
           url: url, 
           dataType: "html", 
-          success: function (data) { 
+          success: function (data) {
+                  alert(data);
+ 
             $('article').html($(data).find('article').html());//解析about的html
           }
       }); 
