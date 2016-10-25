@@ -40,7 +40,7 @@
 #me-button {
   bottom: 60px;
 }
-#social {
+#social-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,17 +49,19 @@
   margin-left: 5px;
   bottom: 100px;
 }
-#social a {
-  padding: 5px;
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#social a:hover {
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-}
-#social img {
-  width: 32px;
-  height: 32px;
+#about-me-inner {
+  width: 80%;
+  background-color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 0 15px 10px rgba(0,0,0,0.5);
 }
 @media screen and (max-device-width: 800px) {
   html {
