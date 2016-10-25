@@ -165,8 +165,11 @@ $(document).ready(function(){
     var s = $('article').html();
     if (s.length < 2) {
       var url = window.location.host+"/about";
+      alert(url);
       url = url.includes("http")?url:"http://"+url; //防止本地测试时不带http的情况
       //请求'关于页'面的数据
+            alert(url);
+
       $.ajax({ 
           type: "GET", 
           url: url, 
