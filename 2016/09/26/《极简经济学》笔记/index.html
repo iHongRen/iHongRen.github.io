@@ -59,7 +59,7 @@
     <h1 id="post-title">《极简经济学》笔记
        
         <div id="post-time" datetime="2016-09-26T14:26:00.000Z">
-            2016-09-26
+          2016-09-26
         </div>
       
     </h1>
@@ -93,7 +93,35 @@
   </article>
 
   
-  
+     
+    
+      
+      <div id="play-button"  style="background-color: #6d5aca; border: solid 2px #6d5aca;">
+  <img id="play-img" src="/images/playback_play.png"></img>
+</div>
+<audio id="bgaudio" loop="loop" preload="none"> 
+  <source src=http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715 type="audio/mpeg">
+</audio>
+
+<script>
+$(document).ready(function(){
+  //播放按钮点击
+  var audio = $("#bgaudio")[0];
+  var img = $("#play-img")[0];
+  $("#play-button").click(function(){ 
+    if (audio.paused || audio.ended) {
+      audio.play();
+      img.src = "/images/playback_pause.png";
+    } else {
+      audio.pause();
+      img.src = "/images/playback_play.png";
+    }
+  });
+});
+</script>
+    
+
+    
     
 
   <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
@@ -121,10 +149,11 @@
   
 
     </div>
-      <!-- 多说评论框 -->    
-      
-        <div class="ds-thread" data-thread-key="2016/09/26/《极简经济学》笔记/" data-title="《极简经济学》笔记" data-url="https://ihongren.github.io/2016/09/26/《极简经济学》笔记/"></div>
-      
+
+    <!-- 多说评论框 -->    
+    
+      <div class="ds-thread" data-thread-key="2016/09/26/《极简经济学》笔记/" data-title="《极简经济学》笔记" data-url="https://ihongren.github.io/2016/09/26/《极简经济学》笔记/"></div>
+    
   </div>
 </div>
 
@@ -176,6 +205,6 @@ var duoshuoQuery = {short_name:"ihongren"};
 $(window).on('load', function(){
    $('pre').addClass('prettyprint').attr('style', 'overflow:auto;');
    prettyPrint();
- })
+ });
 </script>
 
