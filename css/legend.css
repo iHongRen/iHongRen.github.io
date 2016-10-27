@@ -114,7 +114,7 @@
   background-color: #fff;
   border-width: 1px;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px 1px #d3d3d3;
+  box-shadow: 1px 1px 1px 2px #d3d3d3;
   overflow: hidden;
 }
 #archive-year {
@@ -162,6 +162,21 @@
   font-size: 14px;
   color: #808080;
   font-weight: normal;
+}
+#page-prev-next {
+  width: 100%;
+}
+#page-prev-next a {
+  position: absolute;
+  font-family: Microsoft Yahei;
+  color: #6d5aca;
+  font-size: 17px;
+}
+#page-prev-a {
+  left: 50px;
+}
+#page-next-a {
+  right: 50px;
 }
 #bgvideo {
   position: fixed;
@@ -218,12 +233,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
 }
 #about-me-inner {
   width: 80%;
-  background-color: #fff;
   margin-top: 40px;
   margin-bottom: 40px;
+  background-color: #fff;
   border-width: 1px;
   border-radius: 10px;
   box-shadow: 0 15px 10px rgba(0,0,0,0.5);
