@@ -164,19 +164,18 @@
   font-weight: normal;
 }
 #page-prev-next {
-  width: 100%;
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 45px 0 45px;
+  display: flex;
+  justify-content: space-between;
 }
 #page-prev-next a {
-  position: absolute;
   font-family: Microsoft Yahei;
   color: #6d5aca;
   font-size: 17px;
-}
-#page-prev-a {
-  left: 50px;
-}
-#page-next-a {
-  right: 50px;
 }
 #bgvideo {
   position: fixed;
