@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ihongren.github.io/"/>
-  <updated>2016-10-28T14:17:07.000Z</updated>
+  <updated>2016-10-30T08:57:02.000Z</updated>
   <id>https://ihongren.github.io/</id>
   
   <author>
@@ -17,24 +17,28 @@
   
   <entry>
     <title>test</title>
-    <link href="https://ihongren.github.io/2016/10/08/%E4%B8%80%E5%AE%B6%E4%BA%BA%E7%9A%84%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F/"/>
-    <id>https://ihongren.github.io/2016/10/08/一家人的国庆假期/</id>
-    <published>2016-10-08T14:20:17.000Z</published>
-    <updated>2016-10-28T14:17:07.000Z</updated>
+    <link href="https://ihongren.github.io/2016/10/30/test/"/>
+    <id>https://ihongren.github.io/2016/10/30/test/</id>
+    <published>2016-10-30T06:51:56.000Z</published>
+    <updated>2016-10-30T08:57:02.000Z</updated>
     
-    <content type="html"><![CDATA[<pre><code class="objc">- (void)test {
-    NSLog(@&quot;test&quot;);
-}
+    <content type="html"><![CDATA[<p>简体中文：<br>第一最好不相见，如此便可不相恋。<br>第二最好不相知，如此便可不相思。<br>第三最好不相伴，如此便可不相欠。<br>第四最好不相惜，如此便可不相忆。<br>第五最好不相爱，如此便可不相弃。<br>第六最好不相对，如此便可不相会。<br>第七最好不相误，如此便可不相负。<br>第八最好不相许，如此便可不相续。<br>第九最好不相依，如此便可不相偎。<br>第十最好不相遇，如此便可不相聚。<br>但曾相见便相知，相见何如不见时。<br>安得与君相诀绝，免教生死作相思。。</p>
+<p>正體中文：<br>衣帶漸寬終不悔，為伊消得人憔悴。——柳永《鳳棲梧》<br>死生契闊，與子成說。執子之手，與子偕老。——佚名《詩經邶風擊鼓》<br>兩情若是久長時，又豈在朝朝暮暮。——秦觀《鵲橋仙》<br>相思相見知何日？此時此夜難為情。——李白《三五七言》</p>
+<p>英语：<br>The furthest distance in the world<br>Is not between life and death<br>But when I stand in front of you<br>Yet you don’t know that I love you</p>
+<p>代码高亮：</p>
+<pre><code class="html">&lt;video id=&quot;video&quot; autoplay loop&gt;
+  &lt;source src=&quot;http://cdn.calm.com/scenes/scene-nGWcJdvlQ2.mp4?v=1418162807311&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
 </code></pre>
+<p>图片：<br><img src="http://images.ciatr.jp/2014/09/masami2.jpg" alt="image"></p>
+<p>gif<br><img src="http://ww2.sinaimg.cn/mw690/79a00895jw1f986lbyklrg20a205ohdt.gif" alt="image"></p>
+<p>视频：</p>
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=5013220&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
 ]]></content>
     
     <summary type="html">
     
-      &lt;pre&gt;&lt;code class=&quot;objc&quot;&gt;- (void)test {
-    NSLog(@&amp;quot;test&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
+      &lt;p&gt;简体中文：&lt;br&gt;第一最好不相见，如此便可不相恋。&lt;br&gt;第二最好不相知，如此便可不相思。&lt;br&gt;第三最好不相伴，如此便可不相欠。&lt;br&gt;第四最好不相惜，如此便可不相忆。&lt;br&gt;第五最好不相爱，如此便可不相弃。&lt;br&gt;第六最好不相对，如此便可不相会。&lt;br&gt;第七最好不相误，
     
     </summary>
     
