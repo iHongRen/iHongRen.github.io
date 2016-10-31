@@ -98,7 +98,7 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
       <div id="play-button"  style="background-color: #6d5aca; border: solid 2px #6d5aca;">
   <img id="play-img" src="/images/playback_play.png"></img>
 </div>
-<audio id="bgaudio" loop="loop" preload="none"> 
+<audio id="bgaudio" controls="controls" loop="loop" preload="none"> 
   <source src=http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715 type="audio/mpeg">
 </audio>
 
@@ -106,6 +106,7 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
 $(document).ready(function(){
   //播放按钮点击
   var audio = $("#bgaudio")[0];
+  audio.volume = 0.8;
   var img = $("#play-img")[0];
   $("#play-button").click(function(){ 
     if (audio.paused || audio.ended) {
