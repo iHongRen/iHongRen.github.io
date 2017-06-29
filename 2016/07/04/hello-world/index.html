@@ -7,9 +7,6 @@
 <!doctype html>
 <html lang="zh-CN">
 
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-
 <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" 
 src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
@@ -100,7 +97,7 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
       <div id="play-button"  style="background-color: #6d5aca; border: solid 2px #6d5aca;">
   <img id="play-img" src="/images/playback_play.png"></img>
 </div>
-<audio id="bgaudio" controls="controls" loop="loop" preload="none"> 
+<audio id="bgaudio" loop="loop" preload="none"> 
   <source src=http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715 type="audio/mpeg">
 </audio>
 
@@ -108,7 +105,6 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
 $(document).ready(function(){
   //播放按钮点击
   var audio = $("#bgaudio")[0];
-  audio.volume = 0.8;
   var img = $("#play-img")[0];
   $("#play-button").click(function(){ 
     if (audio.paused || audio.ended) {
@@ -152,7 +148,7 @@ $(document).ready(function(){
 
     </div>
 
-    <!-- 多说评论框 -->    
+    <!-- 友言评论框 -->    
     
       <div class="ds-thread" data-thread-key="2016/07/04/hello-world/" data-title="Hello World" data-url="https://ihongren.github.io/2016/07/04/hello-world/"></div>
     
@@ -163,7 +159,7 @@ $(document).ready(function(){
   
   <div id="bottom-inner">
     i红人 
-    ©2016 |Powered by  
+    ©2017 |Powered by  
     <a href="http://hexo.io" target="_blank">Hexo</a> with theme 
     <a href="https://github.com/iHongRen/legend" target="_blank">legend</a>
   </div>
@@ -188,18 +184,12 @@ $(document).ready(function(){
 
 
 
-  
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"ihongren"};
-(function() {
-  var ds = document.createElement('script');
-  ds.type = 'text/javascript';ds.async = true;
-  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-  ds.charset = 'UTF-8';
-  (document.getElementsByTagName('head')[0] 
-   || document.getElementsByTagName('body')[0]).appendChild(ds);
-})();
+  <!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" 
+src="http://v2.uyan.cc/code/uyan.js?uid=" + "">
 </script>
+<!-- UY END -->
 
 
 

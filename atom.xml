@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ihongren.github.io/"/>
-  <updated>2016-10-30T08:57:02.000Z</updated>
+  <updated>2016-11-18T09:41:45.000Z</updated>
   <id>https://ihongren.github.io/</id>
   
   <author>
@@ -16,11 +16,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
+    <title>说说《北京折叠》</title>
+    <link href="https://ihongren.github.io/2016/11/17/%E8%AF%B4%E8%AF%B4%E3%80%8A%E5%8C%97%E4%BA%AC%E6%8A%98%E5%8F%A0%E3%80%8B/"/>
+    <id>https://ihongren.github.io/2016/11/17/说说《北京折叠》/</id>
+    <published>2016-11-17T15:29:24.000Z</published>
+    <updated>2016-11-18T09:41:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://site-836743-9773-4081.strikingly.com/blog/7e8dbc06611" target="_blank" rel="external">《北京折叠》</a>这部2万字的中短篇小说因其获得2016年的<strong>雨果奖</strong>而迅速被人熟知，同时也备受争议。</p>
+<p>作为一部科幻作品，其描述的场面很小。故事背景设在<strong>折叠城市</strong>建立后的50年， 以<strong>送情书</strong>这样一件小事为主线。<strong>折叠</strong>发生在北京六环内，三个空间分别住着三个等级的人。</p>
+<p> 故事情节平淡无奇，科幻成分也没有让人眼亮。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://site-836743-9773-4081.strikingly.com/blog/7e8dbc06611&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《北京折叠》&lt;/a&gt;这部2万字的中短篇小说因其获得2016年的&lt;str
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test Markdown渲染效果</title>
     <link href="https://ihongren.github.io/2016/10/30/test/"/>
     <id>https://ihongren.github.io/2016/10/30/test/</id>
     <published>2016-10-30T06:51:56.000Z</published>
-    <updated>2016-10-30T08:57:02.000Z</updated>
+    <updated>2016-11-17T15:25:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>简体中文：<br>第一最好不相见，如此便可不相恋。<br>第二最好不相知，如此便可不相思。<br>第三最好不相伴，如此便可不相欠。<br>第四最好不相惜，如此便可不相忆。<br>第五最好不相爱，如此便可不相弃。<br>第六最好不相对，如此便可不相会。<br>第七最好不相误，如此便可不相负。<br>第八最好不相许，如此便可不相续。<br>第九最好不相依，如此便可不相偎。<br>第十最好不相遇，如此便可不相聚。<br>但曾相见便相知，相见何如不见时。<br>安得与君相诀绝，免教生死作相思。。</p>
 <p>正體中文：<br>衣帶漸寬終不悔，為伊消得人憔悴。——柳永《鳳棲梧》<br>死生契闊，與子成說。執子之手，與子偕老。——佚名《詩經邶風擊鼓》<br>兩情若是久長時，又豈在朝朝暮暮。——秦觀《鵲橋仙》<br>相思相見知何日？此時此夜難為情。——李白《三五七言》</p>
