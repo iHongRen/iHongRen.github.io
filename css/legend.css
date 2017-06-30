@@ -110,7 +110,9 @@
   margin-top: 60px;
 }
 #archive-inter {
-  width: 80%;
+  width: 90%;
+  min-width: 200px;
+  max-width: 980px;
   background-color: #fff;
   border-width: 1px;
   border-radius: 5px;
@@ -145,13 +147,15 @@
   color: #808080;
   font-size: 0.5em;
   padding-right: 20px;
+  white-space: nowrap;
 }
 .markdown-body {
   box-sizing: border-box;
+  width: 90%;
   min-width: 200px;
   max-width: 980px;
   margin: 0 auto;
-  padding: 45px;
+  padding: 40px 0 40px 0;
 }
 #post-title {
   display: flex;
@@ -162,13 +166,14 @@
   font-size: 14px;
   color: #808080;
   font-weight: normal;
+  white-space: nowrap;
 }
 #page-prev-next {
   box-sizing: border-box;
+  width: 90%;
   min-width: 200px;
   max-width: 980px;
   margin: 0 auto;
-  padding: 0 45px 0 45px;
   display: flex;
   justify-content: space-between;
 }
@@ -236,20 +241,12 @@
 }
 #about-me-inner {
   width: 80%;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 40px;
   background-color: #fff;
   border-width: 1px;
   border-radius: 10px;
   box-shadow: 0 15px 10px rgba(0,0,0,0.5);
-}
-@media screen and (max-device-width: 800px) {
-  html {
-    background: url("/images/background.png") #000 no-repeat center center fixed;
-  }
-  #bgvid {
-    display: none;
-  }
 }
 .social-a {
   padding: 5px;
@@ -281,6 +278,8 @@ body {
 }
 #body-x {
   background-color: #fff;
+  width: 100%;
+  height: auto;
 }
 #body-home-bg {
   background-color: #fff;

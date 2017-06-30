@@ -64,11 +64,3 @@
   border-radius: 10px;
   box-shadow: 0 15px 10px rgba(0,0,0,0.5);
 }
-@media screen and (max-device-width: 800px) {
-  html {
-    background: url("_home_bgimage") #000 no-repeat center center fixed;
-  }
-  #bgvid {
-    display: none;
-  }
-}
