@@ -4,7 +4,9 @@
   margin-top: 60px;
 }
 #archive-inter {
-  width: 80%;
+  width: 90%;
+  min-width: 200px;
+  max-width: 980px;
   background-color: #fff;
   border-width: 1px;
   border-radius: 5px;
