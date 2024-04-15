@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     lang: 'zh-CN',
     // base: '/blog/',
-    title: 'i仙银',
+    title: ' ',
     description: '',
     // lastUpdated: true,
     ignoreDeadLinks: true,
@@ -82,9 +82,9 @@ export default defineConfig({
                 timeStyle: 'medium'
             }
         },
-        footer: {
-            copyright: '版权所有 ©2024 i仙银'
-        },
+        // footer: {
+        //     copyright: '版权所有 ©2024 i仙银'
+        // },
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/iHongRen' },
