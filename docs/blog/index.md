@@ -1,4 +1,6 @@
-# [CXYWebScript](https://github.com/iHongRen/CXYWebScript)
+
+# CXYWebScript
+---
 简化 iOS App 与 H5 交互，H5 直接调用 window.App?.onSayHello('Hello')，即可完成对原生 App  `onSayHello:` 方法的调用。如此，与 H5 在 Android 端调用一致。
 
 
