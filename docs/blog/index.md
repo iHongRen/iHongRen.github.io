@@ -20,6 +20,7 @@ window.App?.onSayHello('Hello')
 ```
 
 > Tip1: 以上 window.App 是可以自定义的，如 window.CXY
+>
 > Tip2: 判断当前环境是客户端还是其他H5端，可直接使用 if (window.App) 就行
 
 
