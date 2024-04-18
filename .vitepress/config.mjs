@@ -5,7 +5,7 @@ export default defineConfig({
     lang: 'zh-CN',
     // base: '/',
     title: 'i仙银',
-    description: ' ',
+    description: '',
     // lastUpdated: true,
     ignoreDeadLinks: true,
 
@@ -24,7 +24,7 @@ export default defineConfig({
         sidebar: {
             '/blog/': [
                 {
-                    text: '博客文章列表',
+                    text: '博客文章',
                     items: [{ text: '', link: '/blog/' }]
                 }
             ],

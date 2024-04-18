@@ -4,15 +4,17 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     lang: 'zh-CN',
     // base: '/blog/',
-    title: ' ',
+    title: 'i仙银',
     description: '',
     // lastUpdated: true,
     ignoreDeadLinks: true,
 
     themeConfig: {
+        logo: '/avatar.png',
+
         returnToTopLabel: '返回顶部',
         outline: [2, 5],
-        outlineTitle: '大纲',
+        outlineTitle: '目录',
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '博客', link: '/blog/', activeMatch: '/blog/.*' },
@@ -24,8 +26,8 @@ export default defineConfig({
         sidebar: {
             '/blog/': [
                 {
-                    text: '博客文章列表',
-                    items: [{ text: '', link: '/blog/' }]
+                    text: '博客文章',
+                    items: [{ text: 'CXYWebScript 简化 iOS App 与 H5 交互', link: '/blog/' }]
                 }
             ],
 
