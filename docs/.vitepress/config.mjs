@@ -30,7 +30,8 @@ export default defineConfig({
                     items: [
                         { text: 'CXYWebScript 简化 iOS App 与 H5 交互', link: '/blog/' },
                         { text: 'Websocket-Vue3 封装，支持心跳检测和断线重连', link: '/blog/websocket-wrap' },
-                        { text: '通用链接 Universal Links', link: '/blog/universal-links' }
+                        { text: '通用链接 Universal Links', link: '/blog/universal-links' },
+                        { text: '什么是 SQL 注入', link: '/blog/sqlinjection' }
                     ]
                 }
             ],
