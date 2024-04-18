@@ -26,7 +26,6 @@ window.App?.onSayHello('Hello')
 > Tip2: 判断当前环境是客户端还是其他H5端，可直接使用 if (window.App) 就行
 
 
-
 ##### iOS  端的简化
 
 ```objective-c
