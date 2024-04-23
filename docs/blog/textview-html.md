@@ -216,8 +216,10 @@ self.textView.editable = YES;
 
 
 
-如果本文对你有帮助，请给个小赞👍🏻。
+如果本文对您有帮助，请给个 star。
 
 **demo** 地址：https://github.com/iHongRen/UITextView-html-demo 
 
 demo 中有耗时显示，但不同机型测试结果不一。
+
+<img src="https://github.com/iHongRen/UITextView-html-demo/blob/main/screenshots/screenshot.png" width="300">
