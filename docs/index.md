@@ -16,9 +16,9 @@ hero:
 
 features:
   - title: 简介
-    details: 90后/软件工程/成都
+    details: 90后/成都/软件工程
   - title: 技能
-    details: iOS/前端/Node
+    details: iOS/JS/TS/Vue/Node
   - title: 爱好
     details: 阅读/历史/运动/分享
 ---

@@ -32,7 +32,8 @@ export default defineConfig({
                         { text: 'Websocket-Vue3 封装，支持心跳检测和断线重连', link: '/blog/websocket-wrap' },
                         { text: '通用链接 Universal Links', link: '/blog/universal-links' },
                         { text: '什么是 SQL 注入', link: '/blog/sqlinjection' },
-                        { text: '什么是字符编码', link: '/blog/charEncoding' }
+                        { text: '什么是字符编码', link: '/blog/charEncoding' },
+                        { text: 'iOS UITextView加载HTML时的问题与优化', link: '/blog/textview-html' }
                     ]
                 }
             ],
