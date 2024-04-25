@@ -15,7 +15,7 @@
 > 2018 年时上架过  Mac App Store，当时作为付费软件以 1 美元价格出售。可能实在太小众，只卖出了两份，都来自于欧洲用户。开发者会员到期后就没有续费，自动下架了。   
 
 <br>
-<img src="https://raw.githubusercontent.com/iHongRen/iconfont/master/screenshots/view.gif">
+<img src="https://wx1.sinaimg.cn/large/bcedcbf4ly1hp30c3wpgng20mg0i97ey.gif">
 
 ---
 <br>
@@ -52,7 +52,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/work/xiguanlu.png"> 
+<img src="https://wx3.sinaimg.cn/large/bcedcbf4ly1hp2zzcu15uj21ll0u0q7x.jpg"> 
 
 <br>
 

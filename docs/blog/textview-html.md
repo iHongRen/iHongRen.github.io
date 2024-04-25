@@ -264,4 +264,4 @@ self.textView.editable = YES;
 
 demo 中有耗时显示，但不同机型测试结果不一。
 
-<img src="https://raw.githubusercontent.com/iHongRen/UITextView-html-demo/main/screenshots/screenshot.png" width="300">
+<img src="https://wx3.sinaimg.cn/mw690/bcedcbf4ly1hp2wzd8hz4j20u01t17iv.jpg" width="300">
