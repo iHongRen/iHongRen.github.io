@@ -19,8 +19,7 @@ export default defineConfig({
         nav: [
             { text: '博客', link: '/blog/', activeMatch: '/blog/.*' },
             { text: '读书', link: '/reading/', activeMatch: '/reading/.*' },
-            { text: '作品', link: '/work/', activeMatch: '/work/.*' },
-            { text: '开源', link: '/open/', activeMatch: '/open/.*' }
+            { text: '作品', link: '/work/', activeMatch: '/work/.*' }
         ],
 
         sidebar: {
@@ -49,13 +48,6 @@ export default defineConfig({
                 {
                     text: '个人作品',
                     items: [{ text: '', link: '/work/' }]
-                }
-            ],
-
-            '/open/': [
-                {
-                    text: '开源作品',
-                    items: [{ text: '文章1', link: '/open/' }]
                 }
             ]
         },

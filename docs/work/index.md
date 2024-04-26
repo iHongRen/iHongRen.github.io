@@ -1,3 +1,10 @@
+---
+sidebar: false
+aside: false
+outline: false
+---
+
+
 # 1、[iconfont](https://github.com/iHongRen/iconfont) - 字体图标预览工具
 
 这是一款 MacOS 上应用， .ttf 文件预览工具，基于 [react-native-macos](https://github.com/ptmt/react-native-macos)  实现。它有以下特点：
@@ -17,10 +24,10 @@
 <br>
 <img src="https://raw.githubusercontent.com/iHongRen/iconfont/master/screenshots/view.gif">
 
----
 <br>
 <br>
 
+---
 # 2、习惯录
 
 一款 iOS 习惯打卡应用，终身学习，记录一切。有以下功能：
@@ -59,3 +66,4 @@
 <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0d/b6/f2/0db6f289-59eb-f89b-6095-1b1e2256a317/59c0937d-a576-45ae-9db6-daa35b2d1480_Simulator_Screen_Shot_-_iPhone_13_Pro_Max_-_2022-05-11_at_16.37.50.png/400x800bb.png" width="300" style="display:inline;margin-right:80px;">
 
 <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/a2/e3/d7/a2e3d706-3f33-4144-f523-e2159f01fad2/73021f38-a760-4163-9393-0a853b2ad0de_Simulator_Screen_Shot_-_iPhone_13_Pro_Max_-_2022-05-11_at_16.46.52.png/400x800bb.png" width="300" style="display:inline;">
+
