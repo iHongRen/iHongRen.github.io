@@ -55,7 +55,7 @@
 
 
 #### 2、类设置页 - delegate 方式让 ViewController 响应 Cell 的操作
-<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/setting.png" width=375>
+<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/setting.png" width="375">
 
 1、有时我们需要响应 Cell 里的一些动作，我们可以在配置 Cell 时，给它设置一个代理对象(**delegate**)
 
