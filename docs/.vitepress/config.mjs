@@ -33,7 +33,8 @@ export default defineConfig({
                         { text: '什么是 SQL 注入', link: '/blog/sqlinjection' },
                         { text: '什么是字符编码', link: '/blog/charEncoding' },
                         { text: 'iOS UITextView加载HTML时的问题与优化', link: '/blog/textview-html' },
-                        { text: '使用CXYTableViewExt来简化UITableView-Cell配置', link: '/blog/CXYTableViewExt' }
+                        { text: '使用CXYTableViewExt来简化UITableView-Cell配置', link: '/blog/CXYTableViewExt' },
+                        { text: '了解 HTTP 重定向', link: '/blog/redirect' }
                     ]
                 }
             ],
