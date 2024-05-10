@@ -1,6 +1,6 @@
 # iOS UITextView 加载 HTML 时的问题与优化
 
-#### 在 iOS 中如果想加载显示 HTML 文本，一般有以下的几种方案：
+### 在 iOS 中如果想加载显示 HTML 文本，一般有以下的几种方案：
 
 1. 使用 WKWebView ，偏重、性能较差
 
@@ -13,6 +13,7 @@
 对于一些详情原生页面，加载一段功能简单的 html 标签文本，使用  `NSAttributedString + UITextView` 是一种相对轻量的选择，本文也只讨论这种方式。
 
 ### 然而在实际开发的过程中，我们很容易发现一些问题：
+<br>
 
 ##### 1、html 字符串转 NSAttributedString 是同步的，文本稍大一点，就会阻塞主线程，页面卡死。
 
