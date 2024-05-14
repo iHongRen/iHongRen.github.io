@@ -2,7 +2,7 @@
 
 HTTP 重定向用于将用户的请求从一个 URL 重定向到另一个 URL。客户端（通常是浏览器）发送一个 HTTP 请求到服务器，然后服务器返回一个特定的重定向状态码（3xx）和新的目标 URL，客户端会自动向新的目标 URL 发起新的请求。这样可以实现在不更改用户请求的情况下，将用户引导到不同的页面或资源。
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/redirect.png">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/redirect.png" data-fancybox="gallery">
 
 
 
@@ -53,17 +53,17 @@ pnpm start
 
 6、打开开发者工具，勾选 `停用缓存`，选中 `文档`，再重新访问  http://localhost:3000/old-url
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/1.png">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/1.png" data-fancybox="gallery">
 
 眼睛够尖的同学能够看到 `/old-url` 迅速就变成了`/new-url`。这就是重定向了。
 
 7、查看 old-url 的响应头
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/2.png">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/2.png" data-fancybox="gallery">
 
 8、重定向后得到 /new-url 的资源
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/3.png">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/redirect/3.png" data-fancybox="gallery">
 
 整个过程如下：
 

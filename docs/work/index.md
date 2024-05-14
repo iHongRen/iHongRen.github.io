@@ -22,7 +22,7 @@ outline: false
 > 2018 年时上架过  Mac App Store，当时作为付费软件以 1 美元价格出售。可能实在太小众，只卖出了两份，都来自于欧洲用户。开发者会员到期后就没有续费，自动下架了。   
 
 <br>
-<img src="https://raw.githubusercontent.com/iHongRen/iconfont/master/screenshots/view.gif">
+<img src="https://raw.githubusercontent.com/iHongRen/iconfont/master/screenshots/view.gif" data-fancybox="gallery">
 
 <br>
 <br>
@@ -59,11 +59,11 @@ outline: false
 
 <br>
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/work/xiguanlu.png"> 
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/work/xiguanlu.png" data-fancybox="gallery"> 
 
 <br>
 
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0d/b6/f2/0db6f289-59eb-f89b-6095-1b1e2256a317/59c0937d-a576-45ae-9db6-daa35b2d1480_Simulator_Screen_Shot_-_iPhone_13_Pro_Max_-_2022-05-11_at_16.37.50.png/400x800bb.png" width="300" style="display:inline;margin-right:80px;">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/0d/b6/f2/0db6f289-59eb-f89b-6095-1b1e2256a317/59c0937d-a576-45ae-9db6-daa35b2d1480_Simulator_Screen_Shot_-_iPhone_13_Pro_Max_-_2022-05-11_at_16.37.50.png/400x800bb.png" width="300" style="display:inline;margin-right:80px;" data-fancybox="gallery">
 
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/a2/e3/d7/a2e3d706-3f33-4144-f523-e2159f01fad2/73021f38-a760-4163-9393-0a853b2ad0de_Simulator_Screen_Shot_-_iPhone_13_Pro_Max_-_2022-05-11_at_16.46.52.png/400x800bb.png" width="300" style="display:inline;">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/a2/e3/d7/a2e3d706-3f33-4144-f523-e2159f01fad2/73021f38-a760-4163-9393-0a853b2ad0de_Simulator_Screen_Shot_-_iPhone_13_Pro_Max_-_2022-05-11_at_16.46.52.png/400x800bb.png" width="300" style="display:inline;" data-fancybox="gallery">
 

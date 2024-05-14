@@ -11,7 +11,7 @@
 
 #### 1、简单使用，无需设置 dataSource 和 delegate，也不需要注册 Cell
 
-<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/home.png" width=375>
+<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/home.png" width=375 data-fancybox="gallery">
 
 如需实现上面的UI界面：
 
@@ -56,7 +56,7 @@
 
 
 #### 2、类设置页 - delegate 方式让 ViewController 响应 Cell 的操作
-<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/setting.png" width="375">
+<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/setting.png" width="375" data-fancybox="gallery">
 
 1、有时我们需要响应 Cell 里的一些动作，我们可以在配置 Cell 时，给它设置一个代理对象(**delegate**)
 
@@ -128,7 +128,7 @@
 
 
 #### 3、列表 - 下拉刷新或上拉加载更多
-<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/news.png" width=375>
+<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/news.png" width=375 data-fancybox="gallery">
 
 每次你的数据变化时，直接重新绑定数据就行。如果你觉得性能有影响，那可以使用 CXYTable.h 里的一些插入、添加、更新、删除方法来实现更新。
 
@@ -165,7 +165,7 @@
 
 
 #### 4、拥有 Header & Footer
-<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/header.png" width=375>
+<img src="https://raw.githubusercontent.com/iHongRen/CXYTableViewExt-OC/main/screenshots/header.png" width=375 data-fancybox="gallery">
 
 同样，你的 Header 和 Footer 也需要实现 CXYTableItemProtocol 的协议。从配置项来看，几乎是所见即所得的。
 

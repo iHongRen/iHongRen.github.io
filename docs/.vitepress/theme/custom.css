@@ -2,3 +2,8 @@
 :root {
     --vp-sidebar-width: 400px;
 }
+
+
+img[data-fancybox="gallery"] {
+    cursor: zoom-in;
+}

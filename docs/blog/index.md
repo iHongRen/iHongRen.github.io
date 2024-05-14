@@ -94,7 +94,7 @@ self.webScript = [[CXYWebScript alloc] initWithWebView:self.webView];
 - 整个实现不到 **200** 行代码
 
 <br>
-<img src="https://raw.githubusercontent.com/iHongRen/CXYWebScript/main/screenshot.png" width="375">
+<img src="https://raw.githubusercontent.com/iHongRen/CXYWebScript/main/screenshot.png" width="375" data-fancybox="gallery">
 <br> 
 
 ### 原理解释:
