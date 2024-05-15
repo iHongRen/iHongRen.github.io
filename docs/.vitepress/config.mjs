@@ -104,6 +104,7 @@ export default defineConfig({
     },
 
     markdown: {
+        lineNumbers: true,
         config: md => {
             // use more markdown-it plugins!
             md.use(mdItCustomAttrs, 'image', {
