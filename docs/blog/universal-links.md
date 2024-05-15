@@ -8,7 +8,8 @@
 
 
 
-### 如何配置通用链接
+### 如何配置通用链接  
+<br>
 
 #### 1、启用 Associated Domains 功能：
 - 登录苹果开发者网站，在"Certificates, Identifiers & Profiles"中，点击"Identifiers"，选择"App IDs"。
