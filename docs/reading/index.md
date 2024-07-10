@@ -10,11 +10,12 @@ import { data } from './reading.data.js'
 
 <div v-for="(item, index) in data" :key="index">
     <h3 :id="index">{{ item.name }}<a :href="`#${index}`" class="header-anchor"></a></h3>
-    <p class="content">{{ item.content }}</p>
+    <p class="content" v-html="item.content"></p>
     <div v-if="item.imgs" class="imgs">
         <img v-for="(img, imgIndex) in item.imgs" :key="imgIndex" :src="img" width="200" style="object-fit: contain;" data-fancybox="gallery">
     </div>
-    <p class="date">{{ item.date }}</p>
+    <img v-if="item.fullImg" :src="item.fullImg" width="100%" data-fancybox="gallery">
+    <!-- <p class="date">{{ item.date }}</p> -->
 </div>
 
 <style>
