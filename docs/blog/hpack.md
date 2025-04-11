@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/hpack/app_icon.png" width=100 data-fancybox="gallery">
-
 ### [hpack](https://github.com/iHongRen/hpack) 简介
 
 **[h-pack](https://github.com/iHongRen/hpack)** 是一个针对 HarmonyOS 的内测分发工具，一行命令完成鸿蒙应用的构建打包、签名、上传到阿里云 OSS 进行内测分发。
@@ -96,7 +94,7 @@ KeystorePwd = 'your store password'
 
 *   分发的 index.html 页面 
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/hpack/2.png" data-fancybox="gallery">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/hpack/2.png" width=60% data-fancybox="gallery">
 
 
 *   在oss中查看上传的包 
