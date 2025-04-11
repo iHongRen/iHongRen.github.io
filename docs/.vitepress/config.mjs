@@ -28,14 +28,15 @@ export default defineConfig({
                 {
                     text: '博客文章',
                     items: [
-                        { text: 'CXYWebScript 简化 iOS App 与 H5 交互', link: '/blog/' },
-                        { text: 'Websocket-Vue3 封装，支持心跳检测和断线重连', link: '/blog/websocket-wrap' },
-                        { text: '通用链接 Universal Links', link: '/blog/universal-links' },
-                        { text: '什么是 SQL 注入', link: '/blog/sqlinjection' },
-                        { text: '什么是字符编码', link: '/blog/charEncoding' },
-                        { text: 'iOS UITextView加载HTML时的问题与优化', link: '/blog/textview-html' },
-                        { text: '使用CXYTableViewExt来简化UITableView-Cell配置', link: '/blog/CXYTableViewExt' },
-                        { text: '了解 HTTP 重定向', link: '/blog/redirect' }
+                        { text: '1、CXYWebScript 简化 iOS App 与 H5 交互', link: '/blog/' },
+                        { text: '2、Websocket-Vue3 封装，支持心跳检测和断线重连', link: '/blog/websocket-wrap' },
+                        { text: '3、通用链接 Universal Links', link: '/blog/universal-links' },
+                        { text: '4、什么是 SQL 注入', link: '/blog/sqlinjection' },
+                        { text: '5、什么是字符编码', link: '/blog/charEncoding' },
+                        { text: '6、iOS UITextView加载HTML时的问题与优化', link: '/blog/textview-html' },
+                        { text: '7、使用CXYTableViewExt来简化UITableView-Cell配置', link: '/blog/CXYTableViewExt' },
+                        { text: '8、了解 HTTP 重定向', link: '/blog/redirect' },
+                        { text: '9、hpack - 鸿蒙HarmonyOS自动打包签名上传内部测试分发工具', link: '/blog/hpack' }
                     ]
                 }
             ],
