@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>hpack - HarmonyOS 内测打包分发工具</title>
+        <style>
+            :root {
+                --harmony-blue: #0d6efd;
+                --code-bg: #f8f9fa;
+            }
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+            .nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 0;
+            }
+            .hero {
+                text-align: center;
+                padding: 4rem 0;
+                border-bottom: 1px solid #eee;
+            }
+            .feature-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            .card {
+                padding: 1.5rem;
+                border: 1px solid #eee;
+                border-radius: 8px;
+                font-size: 1rem;
+            }
+            code {
+                background: var(--code-bg);
+                padding: 0.2em 0.4em;
+                border-radius: 3px;
+                color: #333;
+            }
+            .cli-command {
+                background: #1e1e1e;
+                color: #d4d4d4;
+                padding: 1rem;
+                border-radius: 5px;
+            }
+            .version-badge {
+                display: inline-block;
+                background-color: var(--harmony-blue);
+                color: white;
+                padding: 0.3rem 0.8rem;
+                border-radius: 20px;
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+            }
+
+            /* Templates Section */
+            .templates {
+                padding: 80px 0;
+                background-color: white;
+            }
+
+            .templates h2 {
+                text-align: center;
+                font-size: 2.5rem;
+                margin-bottom: 60px;
+                color: var(--dark-color);
+            }
+
+            .templates-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 30px;
+            }
+
+            .template-card {
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .template-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            }
+
+            .template-card img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+
+            .template-card .template-info {
+                padding: 0 15px;
+                background-color: white;
+            }
+
+            .template-card h4 {
+                margin-bottom: 10px;
+                color: var(--dark-color);
+            }
+
+            .template-card p {
+                color: #666;
+                font-size: 0.9rem;
+            }
+
+            a {
+                text-decoration: none;
+                color: var(--harmony-blue);
+            }
+
+            a:hover {
+                color: var(--harmony-blue);
+            }
+
+            .a-link {
+                margin: 0 1rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+                color: #333;
+                text-decoration: none;
+            }
+
+            pre {
+                color: #333;
+            }
+            .comment {
+                color: #999;
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- 导航栏 -->
+            <nav class="nav">
+                <h1><a href="https://github.com/iHongRen/hpack" target="_blank">hpack</a> <span class="version-badge">v1.0.0</span></h1>
+                <div>
+                    <a href="#features" class="a-link">功能特性</a>
+                    <a href="#quickstart" class="a-link">快速开始</a>
+                    <a href="#templates" class="a-link">模板预览</a>
+                    <a href="https://github.com/iHongRen/hpack" target="_blank" class="a-link">GitHub</a>
+                </div>
+            </nav>
+
+            <!-- 主视觉区 -->
+            <section class="hero">
+                <h2>一行命令完成 HarmonyOS 应用内测分发</h2>
+                <div class="cli-command">$ hpack pack 修复了一个bug</div>
+                <p>自动化构建 → 签名 → 生成分发页 → 上传云端</p>
+            </section>
+
+            <!-- 核心功能 -->
+            <section id="features" style="padding: 3rem 0">
+                <h3>🚀 功能特性</h3>
+                <div class="feature-grid">
+                    <div class="card">
+                        <h4>全自动签名打包</h4>
+                        <p>自动打出所有的 hap 和 hsp 包，生成 Manifest.json5 文件，并对它们进行签名</p>
+                    </div>
+                    <div class="card">
+                        <h4>自定义分发 index 页模板</h4>
+                        <p>提供多种 HTML 模板，如 default, tech, cartoon, tradition，满足不同的展示需求。</p>
+                    </div>
+                    <div class="card">
+                        <h4>二维码生成与上传</h4>
+                        <p>自动生成应用的二维码，打包文件上传到阿里云 OSS，方便内测人员快速下载和安装应用。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 快速开始 -->
+            <section id="quickstart" style="padding: 3rem 0">
+                <h3>⚡ 快速开始</h3>
+                <div class="card">
+                    <h4>环境准备</h4>
+                    <p class="comment"># Java 17 以上版本</p>
+                    <pre><code>java --version</code></pre>
+                    <p class="comment"># Python 3.7 以上版本</p>
+                    <pre><code>python3 --version</code></pre>
+                    <p class="comment"># DevEco-Studio 终端，其他终端需配置环境变量</p>
+                    <pre><code>hvigorw -v</code></pre>
+
+                    <h4>安装 hpack</h4>
+                    <pre><code>pip3 install harmony-hpack</code></pre>
+
+                    <h4>初始化</h4>
+                    <pre><code>hpack init</code><span> # 项目根目录</span></pre>
+
+                    <h4>修改配置</h4>
+                    <pre><code>config.py</code></pre>
+                    <pre><code>Packfile.py</code></pre>
+                    <pre>
+hpack/sign/
+├── harmony.p12    <span class="comment"> # 私钥</span>
+├── release.cer    <span class="comment"> # 发布证书</span>
+└── test_release.p7b <span class="comment"> # 测试Profile</span></pre>
+
+                    <h4>执行打包</h4>
+                    <pre><code>hpack pack 修复了一个bug</code></pre>
+
+                    <a href="https://github.com/iHongRen/hpack" target="_blank">查看完整文档</a>
+                </div>
+            </section>
+
+            <!-- Templates Section -->
+            <section class="templates" id="templates" style="padding: 3rem 0">
+                <h3>👀 模板预览</h3>
+                <p style="margin-bottom: 30px">hpack 提供多种内置分发页模板，满足不同风格的需求</p>
+                <div class="templates-grid">
+                    <div class="template-card">
+                        <img src="https://7up.pics/images/2025/04/24/default.png" alt="default" border="0" />
+                        <div class="template-info">
+                            <h4>default</h4>
+                            <p>默认风格模板，简洁大方</p>
+                        </div>
+                    </div>
+                    <div class="template-card">
+                        <img src="https://7up.pics/images/2025/04/24/simple.png" alt="simple" border="0" />
+                        <div class="template-info">
+                            <h4>simple</h4>
+                            <p>简约风格，注重功能性</p>
+                        </div>
+                    </div>
+                    <div class="template-card">
+                        <img src="https://7up.pics/images/2025/04/24/tech.png" alt="tech" border="0" />
+                        <div class="template-info">
+                            <h4>tech</h4>
+                            <p>科技风格，适合技术型应用</p>
+                        </div>
+                    </div>
+                    <div class="template-card">
+                        <img src="https://7up.pics/images/2025/04/24/cartoon.png" alt="cartoon" border="0" />
+                        <div class="template-info">
+                            <h4>cartoon</h4>
+                            <p>卡通风格，活泼可爱</p>
+                        </div>
+                    </div>
+                    <div class="template-card">
+                        <img src="https://7up.pics/images/2025/04/24/tradition.png" alt="tradition" border="0" />
+                        <div class="template-info">
+                            <h4>tradition</h4>
+                            <p>传统风格，稳重大气</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 贡献指南 -->
+            <footer style="margin-top: 4rem; text-align: center; color: #666">
+                <p>发现 Bug 或有建议？欢迎参与 <a href="https://github.com/iHongRen/hpack/issues">GitHub Issues</a></p>
+                <p>© 2025 版权所有 <a href="https://github.com/iHongRen/hpack/issues">hpack</a></p>
+            </footer>
+        </div>
+    </body>
+
+    <script>
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault()
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                })
+            })
+        })
+    </script>
+</html>
