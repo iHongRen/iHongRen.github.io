@@ -1,5 +1,5 @@
-import { defineConfig } from 'vitepress'
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,7 +20,8 @@ export default defineConfig({
         nav: [
             { text: '博客', link: '/blog/', activeMatch: '/blog/.*' },
             { text: '读书', link: '/reading/', activeMatch: '/reading/.*' },
-            { text: '作品', link: '/work/', activeMatch: '/work/.*' }
+            { text: '作品', link: '/work/', activeMatch: '/work/.*' },
+            { text: 'hpack', link: 'https://ihongren.github.io/hpack.html', activeMatch: '' }
         ],
 
         sidebar: {
