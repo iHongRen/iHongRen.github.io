@@ -37,7 +37,8 @@ export default defineConfig({
                         { text: '6、iOS UITextView加载HTML时的问题与优化', link: '/blog/textview-html' },
                         { text: '7、使用CXYTableViewExt来简化UITableView-Cell配置', link: '/blog/CXYTableViewExt' },
                         { text: '8、了解 HTTP 重定向', link: '/blog/redirect' },
-                        { text: '9、hpack - 鸿蒙HarmonyOS自动打包签名上传内部测试分发工具', link: '/blog/hpack' }
+                        { text: '9、hpack - 鸿蒙HarmonyOS自动打包签名上传内部测试分发工具', link: '/blog/hpack' },
+                        { text: '10、Open-in-DevEco-Studio 小应用', link: '/blog/deveco' }
                     ]
                 }
             ],
