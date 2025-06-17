@@ -38,7 +38,8 @@ export default defineConfig({
                         { text: '7、使用CXYTableViewExt来简化UITableView-Cell配置', link: '/blog/CXYTableViewExt' },
                         { text: '8、了解 HTTP 重定向', link: '/blog/redirect' },
                         { text: '9、hpack - 鸿蒙HarmonyOS自动打包签名上传内部测试分发工具', link: '/blog/hpack' },
-                        { text: '10、Open-in-DevEco-Studio 小应用', link: '/blog/deveco' }
+                        { text: '10、Open-in-DevEco-Studio 小应用', link: '/blog/deveco' },
+                        { text: '11、IDE 绿色护眼主题分享', link: '/blog/ide-theme' }
                     ]
                 }
             ],
