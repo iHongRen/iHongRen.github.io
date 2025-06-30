@@ -4,6 +4,8 @@
 
 它会自动扫描各种编程语言和工具的常见配置文件，提供一个方便的界面来查看和编辑它们，并允许您添加自己的自定义配置文件。
 
+当编辑 .zshrc 和 .bashrc 这类文件时，会自动帮你执行 source，使得修改立即生效。
+
 ## 截图
 
 <img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/configs/light.png" data-fancybox="gallery">
@@ -29,6 +31,10 @@
   - 在 Finder 中打开
   - 在 VSCode 中打开
   - 在 Cursor 中打开
+
+
+
+
 
 ## 安装
 
