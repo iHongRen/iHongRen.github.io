@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>支持作者 - 赞助</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                background-color: #f8f8f8;
+                color: #333;
+                line-height: 1.6;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            header {
+                text-align: center;
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #eee;
+            }
+            h1 {
+                font-size: 2.2rem;
+                color: #4a6baf;
+                margin-bottom: 15px;
+                font-weight: 500;
+            }
+            h2 {
+                font-size: 1.5rem;
+                color: #4a6baf;
+                margin: 25px 0 15px;
+                font-weight: 500;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            .author-card {
+                background: white;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+                margin-bottom: 30px;
+            }
+            .payment-methods {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 30px;
+            }
+            .payment-method {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: white;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+                width: 250px;
+            }
+            .payment-method img {
+                width: 200px;
+                height: 200px;
+                margin-bottom: 15px;
+            }
+            .donation-history {
+                background: white;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 15px;
+            }
+            th,
+            td {
+                padding: 12px 15px;
+                text-align: left;
+                border-bottom: 1px solid #eee;
+            }
+            th {
+                background-color: #f3f4f6;
+                font-weight: 500;
+            }
+            .highlight {
+                background-color: #f0f7ff;
+                padding: 20px;
+                border-radius: 8px;
+                margin: 20px 0;
+                border-left: 4px solid #4a6baf;
+                text-align: center;
+            }
+            footer {
+                text-align: center;
+                margin-top: 50px;
+                padding-top: 20px;
+                border-top: 1px solid #eee;
+                color: #666;
+                font-size: 0.9rem;
+            }
+            .donor-name {
+                font-weight: 500;
+                color: #4a6baf;
+            }
+            .author-card ul {
+                list-style: none;
+                padding: 0;
+            }
+            .link {
+                color: #4a6baf;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>支持作者持续创作</h1>
+                <p>如果您喜欢我的作品，可以通过赞助支持我的持续创作。</p>
+            </header>
+
+            <div class="highlight">
+                <p>您的赞助将帮助我投入更多时间在内容创作上，提供更高质量的作品。</p>
+            </div>
+
+            <h2>关于作者</h2>
+            <div class="author-card" style="display: flex; gap: 24px; align-items: center">
+                <!-- 作者头像 -->
+                <div style="flex-shrink: 0">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/8802421?v=4"
+                        alt="作者头像"
+                        style="width: 80px; height: 80px; border-radius: 50%; border: 2px solid #e3eafc; box-shadow: 0 2px 6px rgba(11, 69, 185, 0.08); object-fit: cover; padding: 5px"
+                    />
+                </div>
+                <div style="flex: 1">
+                    <p style="font-size: 1.1rem; font-weight: 500; margin-bottom: 8px">我是仙银，一名软件开发者，专注于创作实用效率工具。</p>
+                    <div style="display: flex; gap: 18px; align-items: center; margin-bottom: 8px">
+                        <!-- 邮箱 -->
+                        <a href="mailto:iamhongren@gmail.com" class="icon-link" title="邮箱" style="display: inline-flex; align-items: center; gap: 6px">
+                            <svg t="1753176577597" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="14545" width="26" height="26">
+                                <path d="M790.8352 167.424l-275.8656 215.2448L232.7552 167.424l0.3584 0.3584v301.4656l278.6816 219.9552 279.04-211.456V167.424z" fill="#EA4335" p-id="14546"></path>
+                                <path d="M863.232 114.9952l-72.3968 52.3776v310.3744L1018.88 302.592V197.2736s-27.648-150.528-155.5456-82.2272h-0.0512z" fill="#FBBC05" p-id="14547"></path>
+                                <path d="M790.8352 477.9008v402.432h174.7456s49.7664-5.0176 53.2992-61.696V302.7968l-228.0448 175.104z" fill="#34A853" p-id="14548"></path>
+                                <path
+                                    d="M233.1136 880.64V469.248l-0.3584-0.256 0.3584 411.648zM232.7552 167.424L160.6656 115.4048C32.8704 47.104 5.12 197.632 5.12 197.632v105.472l227.6352 165.888V167.5264z"
+                                    fill="#C5221F"
+                                    p-id="14549"
+                                ></path>
+                                <path d="M232.7552 167.5776v301.568l0.3584 0.256V167.936l-0.3584-0.3584z" fill="#C5221F" p-id="14550"></path>
+                                <path d="M5.12 303.2064v515.7376a62.208 62.208 0 0 0 53.2992 61.7984h174.7456l-0.4096-411.648L5.12 303.2064z" fill="#4285F4" p-id="14551"></path>
+                            </svg>
+                        </a>
+                        <!-- 博客 -->
+                        <a href="https://ihongren.github.io/" class="icon-link" title="博客" target="_blank" style="display: inline-flex; align-items: center; gap: 6px">
+                            <svg t="1753176392700" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10937" width="26" height="26">
+                                <path
+                                    d="M1017.771 511.331c0 280.666-227.523 508.191-508.191 508.191s-508.19-227.525-508.19-508.191c0-280.665 227.523-508.19 508.191-508.19s508.19 227.523 508.19 508.19zM191.726 479.984h26.423v188.788h40.113v-188.788h23.558v-37.567h-23.558v-84.048h-40.113v84.048h-26.423v37.567zM274.182 598.096h46.958l-17.669 18.465c15.493 11.884 29.502 23.241 42.023 34.065l25.787-28.334c-10.932-8.701-21.703-16.766-32.314-24.195h92.165v16.555c0 4.882-1.221 9.022-3.662 12.417-2.443 3.395-8.332 5.093-17.669 5.093-8.703 0-21.437-0.532-38.205-1.591 4.88 16.766 8.063 29.393 9.551 37.885 31.622 0 51.998-1.036 61.126-3.104 9.126-2.068 16.023-6.475 20.692-13.212 4.669-6.74 7.004-15.734 7.004-26.981v-27.061h36.929v-31.2h-36.929v-12.417h20.375v-126.389h-81.5v-15.281h94.871v-31.2h-25.15c-7.217-9.973-14.326-19.314-21.33-28.017l-28.334 14.007 10.029 14.007h-30.085v-25.151h-37.567v25.151h-91.687v31.2h91.687v15.281h-78.636v128.3h38.205v-16.236h40.432v14.964h37.567v-14.964h43.298v9.551h-21.012v17.191h-156.951v31.2zM330.85 456.107h40.432v16.555h-40.432v-16.555zM330.85 498.13h40.432v16.555h-40.432v-16.555zM452.146 472.662h-43.298v-16.555h43.298v16.555zM408.85 498.13h43.298v16.555h-43.298v-16.555zM605.279 670.683v-15.281h139.442v15.281h43.298v-109.039c9.443 1.591 19.205 3.131 29.289 4.615l15.919-39.158c-42.449-2.547-79.008-7.323-109.675-14.326 23.241-12.838 42.819-27.697 58.738-44.571v-10.188h38.205v-75.771h-113.179c-3.715-11.247-7.059-20.692-10.029-28.334l-54.441 5.411 9.87 22.923h-123.526v75.771h43.616v-39.796h204.069v19.739h-119.068c3.82-4.14 7.427-8.382 10.825-12.735h-49.346c-22.711 23.558-52.107 43.086-88.186 58.579 8.063 8.703 16.023 18.465 23.877 29.289 15.068-7.642 29.076-15.703 42.023-24.195 9.973 9.129 20.587 17.139 31.836 24.036-30.563 7.537-68.026 14.062-112.382 19.579 5.731 11.461 11.037 23.666 15.919 36.611 10.188-1.696 20.057-3.447 29.609-5.253v106.81h43.296zM774.487 559.257h-190.062c35.339-7.534 65.687-15.81 91.052-24.832 27.061 9.445 60.063 17.725 99.010 24.832zM744.721 619.108h-139.442v-23.558h139.442v23.558zM628.359 470.433h96.305c-14.54 11.249-30.777 20.534-48.709 27.857-17.723-7.323-33.586-16.607-47.596-27.857z"
+                                    fill="#272636"
+                                    p-id="10938"
+                                ></path>
+                            </svg>
+                        </a>
+                        <!-- GitHub -->
+                        <a href="https://github.com/iHongRen" class="icon-link" title="GitHub" target="_blank" style="display: inline-flex; align-items: center; gap: 6px">
+                            <svg height="26" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="26" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                                <path
+                                    d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <style>
+                        .icon-link {
+                            text-decoration: none;
+                        }
+
+                        .icon-link:hover img {
+                            filter: grayscale(0) drop-shadow(0 2px 6px #4a6baf33);
+                            opacity: 1;
+                            transform: scale(1.13) rotate(-7deg);
+                        }
+                    </style>
+                </div>
+            </div>
+
+            <!-- 作者作品列表 -->
+            <div class="author-works" style="margin-top: 18px">
+                <h2 style="color: #4a6baf; margin-bottom: 10px">近期作品</h2>
+                <div class="works-scroll" style="display: flex; gap: 18px; overflow-x: auto; padding-bottom: 8px">
+                    <!-- 作品1 -->
+                    <a class="work-item" href="https://github.com/iHongRen/configEditor" target="_blank" title="Configs - 配置文件管理工具">
+                        <img src="https://raw.githubusercontent.com/iHongRen/configEditor/refs/heads/main/Configs/Configs/Assets.xcassets/AppIcon.appiconset/icon-128.png" alt="Configs" />
+                        <div>
+                            <div class="work-title">Configs</div>
+                            <div class="work-desc">macOS 配置文件编辑管理工具</div>
+                        </div>
+                    </a>
+                    <!-- 作品2 -->
+                    <a class="work-item" href="https://github.com/iHongRen/hpack" target="_blank" title="hpack - 鸿蒙 HarmonyOS 内测签名打包分发工具">
+                        <img src="https://raw.githubusercontent.com/iHongRen/hpack/refs/heads/main/screenshots/icon-64%402x.png" alt="hpack" />
+                        <div>
+                            <div class="work-title">hpack</div>
+                            <div class="work-desc">鸿蒙内测签名打包分发工具</div>
+                        </div>
+                    </a>
+                    <!-- 作品3 -->
+                    <a class="work-item" href="https://github.com/iHongRen/SandboxFinder" target="_blank" title="鸿蒙沙箱浏览器">
+                        <img src="https://raw.githubusercontent.com/iHongRen/SandboxFinder/refs/heads/main/screenshots/icon.png" alt="SandboxFinder" />
+                        <div>
+                            <div class="work-title">鸿蒙沙箱浏览器</div>
+                            <div class="work-desc">支持查看、上传、下载沙箱文件</div>
+                        </div>
+                    </a>
+                </div>
+                <style>
+                    .author-works a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+                    .author-works img {
+                        width: 40px;
+                        height: 40px;
+                        object-fit: cover;
+                    }
+                    .author-works .work-item {
+                        background: #f7faff;
+                        border-radius: 8px;
+                        padding: 12px 14px;
+                        min-width: 220px;
+                        box-shadow: 0 1px 6px #4a6baf11;
+                        display: flex;
+                        gap: 10px;
+                        align-items: flex-start;
+                        width: 300px;
+                    }
+                    .author-works .work-item:hover {
+                        background: #e3eafc;
+                    }
+                    .author-works .work-title {
+                        font-weight: 500;
+                        font-size: 1rem;
+                    }
+                    .author-works .work-desc {
+                        font-size: 0.9rem;
+                        color: #666;
+                    }
+                    .works-scroll::-webkit-scrollbar {
+                        width: 8px;
+                    }
+                    .works-scroll::-webkit-scrollbar {
+                        height: 8px;
+                    }
+                    .works-scroll::-webkit-scrollbar-thumb {
+                        background: #e3eafc;
+                        border-radius: 4px;
+                    }
+                    .works-scroll::-webkit-scrollbar-track {
+                        background: transparent;
+                    }
+                </style>
+            </div>
+
+            <h2>赞助方式</h2>
+            <p>可以扫描下方二维码进行赞助支持</p>
+
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <h3>微信支付</h3>
+                    <!-- 请替换为您自己的二维码图片 -->
+                    <img src="https://xiguanlu.oss-cn-chengdu.aliyuncs.com/donation/wx.png" alt="微信支付二维码" />
+                    <p>微信扫一扫支持</p>
+                </div>
+
+                <div class="payment-method">
+                    <h3>支付宝</h3>
+                    <!-- 请替换为您自己的二维码图片 -->
+                    <img src="https://xiguanlu.oss-cn-chengdu.aliyuncs.com/donation/ali.png" alt="支付宝二维码" />
+                    <p>支付宝扫一扫支持</p>
+                </div>
+            </div>
+
+            <!-- <h2>特别感谢</h2>
+            <div class="donation-history">
+                <p>以下是为我赞助的热心读者，感谢你们的支持！</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>捐助者</th>
+                            <th>金额</th>
+                            <th>留言</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023-05-15</td>
+                            <td class="donor-name">王**</td>
+                            <td>¥50</td>
+                            <td>文章很有帮助！</td>
+                        </tr>
+                        <tr>
+                            <td>2023-05-10</td>
+                            <td class="donor-name">张**</td>
+                            <td>¥20</td>
+                            <td>继续加油！</td>
+                        </tr>
+                        <tr>
+                            <td>2023-05-01</td>
+                            <td class="donor-name">李**</td>
+                            <td>¥100</td>
+                            <td>感谢分享</td>
+                        </tr>
+                        <tr>
+                            <td>2023-04-28</td>
+                            <td class="donor-name">赵*</td>
+                            <td>¥30</td>
+                            <td>小程序很棒</td>
+                        </tr>
+                        <tr>
+                            <td>2023-04-15</td>
+                            <td class="donor-name">匿名</td>
+                            <td>¥15</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+
+            <footer>
+                <p>© 2025 仙银 版权所有</p>
+            </footer>
+        </div>
+    </body>
+</html>
