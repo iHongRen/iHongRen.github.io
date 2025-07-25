@@ -40,7 +40,8 @@ export default defineConfig({
                         { text: '9、hpack - 鸿蒙HarmonyOS自动打包签名上传内部测试分发工具', link: '/blog/hpack' },
                         { text: '10、Open-in-DevEco-Studio 小应用', link: '/blog/deveco' },
                         { text: '11、IDE 绿色护眼主题分享', link: '/blog/ide-theme' },
-                        { text: '12、开源 macOS 配置管理应用', link: '/blog/configs' }
+                        { text: '12、开源 macOS 配置管理应用', link: '/blog/configs' },
+                        { text: '13、鸿蒙沙箱浏览器 - SandboxFinder', link: '/blog/sandboxfinder' }
                     ]
                 }
             ],
