@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     lang: 'zh-CN',
     // base: '/blog/',
-    title: 'i仙银',
+    title: '仙银',
     description: '',
     // lastUpdated: true,
     ignoreDeadLinks: true,
@@ -93,7 +93,7 @@ export default defineConfig({
             }
         },
         // footer: {
-        //     copyright: '版权所有 ©2024 i仙银'
+        //     copyright: '版权所有 ©2024 仙银'
         // },
 
         socialLinks: [

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "i仙银"
+  name: "仙银"
   text: ""
   tagline: "春风若有怜花意，能否许我再少年"
   # actions:
