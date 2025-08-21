@@ -42,7 +42,8 @@ export default defineConfig({
                         { text: '11、IDE 绿色护眼主题分享', link: '/blog/ide-theme' },
                         { text: '12、开源 macOS 配置管理应用', link: '/blog/configs' },
                         { text: '13、鸿蒙沙箱浏览器 - SandboxFinder', link: '/blog/sandboxfinder' },
-                        { text: '14、HarmonyOS UDID 获取工具', link: '/blog/udid' }
+                        { text: '14、HarmonyOS UDID 获取工具', link: '/blog/udid' },
+                        { text: '14、鸿蒙 Web 服务器', link: '/blog/webserver' }
                     ]
                 }
             ],

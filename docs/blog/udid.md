@@ -1,4 +1,4 @@
-# HarmonyOS UDID 获取工具
+# [HarmonyOS UDID](https://github.com/iHongRen/harmony-udid-tool) 获取工具
 
 
 <img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/udid/icon.png" width="200" data-fancybox="gallery">
