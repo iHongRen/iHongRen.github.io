@@ -1,7 +1,5 @@
 # 上拉下拉刷新组件 - RefreshList
 
-[![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](LICENSE) [![HarmonyOS](https://img.shields.io/badge/HarmonyOS-NEXT-orange.svg)](https://developer.harmonyos.com/) [![Version](https://img.shields.io/badge/version-1.0.4-green.svg)](oh-package.json5)
-
 鸿蒙HarmonyOS NEXT 简单易用的上拉下拉刷新组件，支持自定义样式和多种使用场景，兼容API 15+。
 
 如果项目对你有帮助，欢迎持续关注和 [🌟Star](https://github.com/iHongRen/RefreshList) ，[💖赞助](https://ihongren.github.io/donate.html)
