@@ -25,8 +25,7 @@
    ```
 4. 按住 `⌘ Command` 键，用鼠标将 `TinyImage.app` 拖到 Finder 工具栏
 
-![](./screenshots/install.gif)
-
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tingyimage/install.gif"  data-fancybox="gallery">
 
 
 ### 申请 API Key
@@ -71,8 +70,7 @@ echo $TINIFY_IMAGE_API_KEY
 
 压缩后的图片保存在 `tinified` 文件夹中。
 
-![](./screenshots/tinyimage.gif)
-
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tingyimage/tinyimage.gif"  data-fancybox="gallery">
 
 
 ## 提示方式配置
