@@ -25,7 +25,7 @@
    ```
 4. 按住 `⌘ Command` 键，用鼠标将 `TinyImage.app` 拖到 Finder 工具栏
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tingyimage/install.gif"  data-fancybox="gallery">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tinyimage/install.gif"  data-fancybox="gallery">
 
 
 ### 申请 API Key
@@ -70,7 +70,7 @@ echo $TINIFY_IMAGE_API_KEY
 
 压缩后的图片保存在 `tinified` 文件夹中。
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tingyimage/tinyimage.gif"  data-fancybox="gallery">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tinyimage/tinyimage.gif"  data-fancybox="gallery">
 
 
 ## 提示方式配置
@@ -124,11 +124,11 @@ echo 'export TINIFY_SUCCESS_NOTIFICATION_TYPE="notification"' >> ~/.bash_profile
 
 现在右键菜单中就会出现 TinyImage 选项。
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tingyimage/quick_contextmenu.png"  data-fancybox="gallery">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tinyimage/quick_contextmenu.png"  data-fancybox="gallery">
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tingyimage/auto_quick.png"  data-fancybox="gallery">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tinyimage/auto_quick.png"  data-fancybox="gallery">
 
-<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tingyimage/auto_guide.png"  data-fancybox="gallery">
+<img src="https://raw.githubusercontent.com/iHongRen/iHongRen.github.io/master/screenshots/blog/tinyimage/auto_guide.png"  data-fancybox="gallery">
 
 
 
