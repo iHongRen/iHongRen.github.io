@@ -41,11 +41,12 @@ export default defineConfig({
                         { text: '10、Open-in-DevEco-Studio 小应用', link: '/blog/deveco' },
                         { text: '11、IDE 绿色护眼主题分享', link: '/blog/ide-theme' },
                         { text: '12、开源 macOS 配置管理应用', link: '/blog/configs' },
-                        { text: '13、鸿蒙沙箱浏览器 - SandboxFinder', link: '/blog/sandboxfinder' },
+                        { text: '13、SandboxFinder - 鸿蒙沙箱浏览器', link: '/blog/sandboxfinder' },
                         { text: '14、HarmonyOS UDID 获取工具', link: '/blog/udid' },
                         { text: '14、鸿蒙 Web 服务器', link: '/blog/webserver' },
                         { text: '15、鸿蒙聊天文本选择菜单', link: '/blog/selectablemenu' },
-                        { text: '16、上拉下拉加载更多组件 - RefreshList', link: '/blog/refreshlist' }
+                        { text: '16、RefreshList - 上拉下拉加载更多组件', link: '/blog/refreshlist' },
+                        { text: '17、TinyImage - macOS 图片压缩工具', link: '/blog/tinyimage' }
                     ]
                 }
             ],
