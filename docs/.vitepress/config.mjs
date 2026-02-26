@@ -46,7 +46,8 @@ export default defineConfig({
                         { text: '14、鸿蒙 Web 服务器', link: '/blog/webserver' },
                         { text: '15、鸿蒙聊天文本选择菜单', link: '/blog/selectablemenu' },
                         { text: '16、RefreshList - 上拉下拉加载更多组件', link: '/blog/refreshlist' },
-                        { text: '17、TinyImage - macOS 图片压缩工具', link: '/blog/tinyimage' }
+                        { text: '17、TinyImage - macOS 图片压缩工具', link: '/blog/tinyimage' },
+                        { text: '18、macOS Finder 工具栏应用集', link: '/blog/finder-toolbar-apps' }
                     ]
                 }
             ],
