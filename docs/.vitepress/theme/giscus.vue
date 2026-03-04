@@ -8,16 +8,19 @@
 
     // 配置Giscus参数（替换为你自己的）
     const giscusConfig = {
-        repo: 'iHongRen/iHongRen.github.io', // 如 'vuejs/vitepress'
-        'repo-id': 'MDEwOlJlcG9zaXRvcnk2MjUyMjYxNw==', // Giscus配置页生成的repoId
-        category: 'Announcements', // Discussions的分类名
-        'category-id': 'DIC_kwDOA7oE-c4Cerbr', // Giscus配置页生成的categoryId
-        mapping: 'pathname', // 按页面路径关联评论
-        'reactions-enabled': '1', // 启用表情反应
-        'emit-metadata': '0',
-        'input-position': 'top', // 评论输入框位置
-        lang: 'zh-CN', // 语言
-        loading: 'lazy' // 懒加载
+        repo: 'iHongRen/iHongRen.github.io',
+        'repo-id': 'MDEwOlJlcG9zaXRvcnk2MjUyMjYxNw==',
+        category: 'Announcements',
+        'category-id': 'DIC_kwDOA7oE-c4Cerbr',
+        mapping: 'pathname',
+        strict: '0',
+        'reactions-enabled': '1',
+        'emit-metadata': '1',
+        'input-position': 'top',
+        theme: 'preferred_color_scheme',
+        lang: 'zh-CN',
+        crossorigin: 'anonymous',
+        async: 'true'
     }
 
     const route = useRoute()
