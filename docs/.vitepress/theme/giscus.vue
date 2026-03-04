@@ -8,14 +8,14 @@
 
     // 配置Giscus参数（替换为你自己的）
     const giscusConfig = {
-        repo: '你的用户名/你的仓库名', // 如 'vuejs/vitepress'
-        repoId: '你的仓库ID', // Giscus配置页生成的repoId
-        category: 'General', // Discussions的分类名
-        categoryId: '你的分类ID', // Giscus配置页生成的categoryId
+        repo: 'iHongRen/iHongRen.github.io', // 如 'vuejs/vitepress'
+        'repo-id': 'MDEwOlJlcG9zaXRvcnk2MjUyMjYxNw==', // Giscus配置页生成的repoId
+        category: 'Announcements', // Discussions的分类名
+        'category-id': 'DIC_kwDOA7oE-c4Cerbr', // Giscus配置页生成的categoryId
         mapping: 'pathname', // 按页面路径关联评论
-        reactionsEnabled: '1', // 启用表情反应
-        emitMetadata: '0',
-        inputPosition: 'bottom', // 评论输入框位置
+        'reactions-enabled': '1', // 启用表情反应
+        'emit-metadata': '0',
+        'input-position': 'top', // 评论输入框位置
         lang: 'zh-CN', // 语言
         loading: 'lazy' // 懒加载
     }
