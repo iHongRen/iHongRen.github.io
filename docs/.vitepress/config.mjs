@@ -119,10 +119,7 @@ export default defineConfig({
                 link: 'https://ihongren.github.io/donate.html',
                 ariaLabel: 'donate'
             }
-        ],
-        giscus: {
-            enable: true // 全局启用评论
-        }
+        ]
     },
 
     markdown: {
@@ -132,10 +129,6 @@ export default defineConfig({
             md.use(mdItCustomAttrs, 'image', {
                 'data-fancybox': 'gallery'
             })
-        },
-        // 可选：确保Giscus脚本能正常加载
-        attrs: {
-            allow: ['src', 'async', 'crossorigin', 'data-*']
         }
     },
 
