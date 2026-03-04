@@ -1,6 +1,8 @@
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
+import { h } from 'vue'
 import './custom.css'
+import Giscus from './giscus.vue'
 
 export default {
     ...DefaultTheme,
